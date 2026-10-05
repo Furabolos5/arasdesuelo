@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.escuelas
+  size: 1
+  alias: escuelaEntry
+permalink: "/escuelas/{{ escuelaEntry[0] | slugify }}/"
+eleventyComputed:
+  title: "{{ escuelasMeta[escuelaEntry[0]].etiqueta }}"
+  description: "Ensayos que usan {{ escuelasMeta[escuelaEntry[0]].etiqueta }} ({{ escuelasMeta[escuelaEntry[0]].pensador }}) como herramienta."
+---
+{% set escuela = escuelaEntry[0] %}
+{% set posts = escuelaEntry[1] %}
+<section class="archive-page">
+  <div class="wrap wrap--narrow">
+    <header class="archive-page__header">
+      <p class="hero__kicker">Escuela filosófica</p>
+      <h1 class="archive-page__title">{{ escuelasMeta[escuela].etiqueta }}</h1>
+      <p class="archive-page__count">{{ escuelasMeta[escuela].pensador }}</p>
+    </header>
+    <ol class="post-list">
+      {% for post in posts %}
+      <li class="post-list__item">
+        <a href="{{ post.url | url }}" class="post-list__link">
+          <span class="post-list__title">{{ post.data.title }}</span>
+          <span class="post-list__meta">{{ temasMeta[post.data.tema].etiqueta }} · {{ post.date | htmlDateString | fechaEs }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>

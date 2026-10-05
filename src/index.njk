@@ -1,0 +1,61 @@
+---
+layout: layouts/base.njk
+title: null
+description: null
+---
+<section class="hero">
+  <div class="wrap wrap--narrow">
+    <p class="hero__kicker">{{ site.tagline }}</p>
+    <h1 class="hero__title">Filosofía que resuelve, no que decora.</h1>
+    <p class="hero__lede">{{ site.description }}</p>
+  </div>
+</section>
+
+<section class="featured">
+  <div class="wrap wrap--narrow">
+    {% set ultimo = collections.ensayos[0] %}
+    <a href="{{ ultimo.url | url }}" class="featured__card">
+      <span class="featured__eyebrow">Último ensayo</span>
+      <h2 class="featured__title">{{ ultimo.data.title }}</h2>
+      <p class="featured__excerpt">{{ ultimo.data.excerpt }}</p>
+      <span class="featured__meta">{{ temasMeta[ultimo.data.tema].etiqueta }} · {{ escuelasMeta[ultimo.data.escuela].etiqueta }}</span>
+    </a>
+  </div>
+</section>
+
+<section class="archive-list">
+  <div class="wrap wrap--narrow">
+    <h2 class="section-title">Todos los ensayos</h2>
+    <ol class="post-list">
+      {% for post in collections.ensayos %}
+        {% if loop.index <= 12 %}
+        <li class="post-list__item">
+          <a href="{{ post.url | url }}" class="post-list__link">
+            <span class="post-list__title">{{ post.data.title }}</span>
+            <span class="post-list__meta">{{ temasMeta[post.data.tema].etiqueta }} · {{ post.date | htmlDateString | fechaEs }}</span>
+          </a>
+        </li>
+        {% if loop.index == 6 %}
+        {% include "partials/ad-rect.njk" %}
+        {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ol>
+    <a href="{{ '/ensayos/' | url }}" class="see-all">Ver todos los ensayos →</a>
+  </div>
+</section>
+
+<section class="temas-grid">
+  <div class="wrap wrap--narrow">
+    <h2 class="section-title">Explorar por problema</h2>
+    <div class="temas-grid__grid">
+      {% for tema, posts in collections.temas %}
+      <a href="{{ ('/temas/' + (tema | slugify) + '/') | url }}" class="tema-card">
+        <span class="tema-card__title">{{ temasMeta[tema].etiqueta }}</span>
+        <span class="tema-card__desc">{{ temasMeta[tema].descripcion }}</span>
+        <span class="tema-card__count">{{ posts.length }} ensayo{{ 's' if posts.length != 1 }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

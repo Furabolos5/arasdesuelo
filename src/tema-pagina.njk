@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.temas
+  size: 1
+  alias: temaEntry
+permalink: "/temas/{{ temaEntry[0] | slugify }}/"
+eleventyComputed:
+  title: "{{ temasMeta[temaEntry[0]].etiqueta }}"
+  description: "{{ temasMeta[temaEntry[0]].descripcion }}"
+---
+{% set tema = temaEntry[0] %}
+{% set posts = temaEntry[1] %}
+<section class="archive-page">
+  <div class="wrap wrap--narrow">
+    <header class="archive-page__header">
+      <p class="hero__kicker">Tema</p>
+      <h1 class="archive-page__title">{{ temasMeta[tema].etiqueta }}</h1>
+      <p class="archive-page__count">{{ temasMeta[tema].descripcion }}</p>
+    </header>
+    <ol class="post-list">
+      {% for post in posts %}
+      <li class="post-list__item">
+        <a href="{{ post.url | url }}" class="post-list__link">
+          <span class="post-list__title">{{ post.data.title }}</span>
+          <span class="post-list__meta">{{ escuelasMeta[post.data.escuela].etiqueta }} · {{ post.date | htmlDateString | fechaEs }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>

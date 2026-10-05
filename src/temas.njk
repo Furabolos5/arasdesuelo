@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+title: Temas
+description: Los diez problemas modernos que A ras de suelo aborda con herramientas filosóficas.
+permalink: /temas/
+---
+<section class="temas-page">
+  <div class="wrap wrap--narrow">
+    <header class="archive-page__header">
+      <h1 class="archive-page__title">Explorar por problema</h1>
+      <p class="archive-page__count">Cada ensayo parte de un problema concreto, no de una escuela filosófica.</p>
+    </header>
+    <div class="temas-grid__grid">
+      {% for tema, posts in collections.temas %}
+      <a href="{{ ('/temas/' + (tema | slugify) + '/') | url }}" class="tema-card">
+        <span class="tema-card__title">{{ temasMeta[tema].etiqueta }}</span>
+        <span class="tema-card__desc">{{ temasMeta[tema].descripcion }}</span>
+        <span class="tema-card__count">{{ posts.length }} ensayo{{ 's' if posts.length != 1 }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
