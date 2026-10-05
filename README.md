@@ -35,6 +35,10 @@ node scripts/generate-hero-images.js
 
 (el script procesa `articles.json`, así que para un ensayo que no viene de ese archivo basta con copiar el patrón de cualquier `.svg` existente y cambiar el `slug` en el nombre del archivo, o llamar a la función `generateSvg(slug, color)` del script a mano).
 
+## Imágenes para redes sociales (Open Graph)
+
+Las vistas previas al compartir un enlace usan PNG de 1200×630 (`src/images/og/<slug>.png`), con la ilustración, el título y el nombre del sitio, porque Facebook, X y WhatsApp no muestran SVG. Se generan con `node scripts/generate-og-images.js` (usa Edge o Chrome instalado vía Playwright). Ejecútalo tras añadir ensayos nuevos, después de generar su imagen de cabecera.
+
 ## Huecos publicitarios
 
 Cuatro huecos, pensados para no romper el diseño editorial:

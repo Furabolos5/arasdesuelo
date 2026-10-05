@@ -10,14 +10,16 @@
   {% if site.googleVerification %}<meta name="google-site-verification" content="{{ site.googleVerification }}">{% endif %}
   {% set pageUrl = site.url ~ page.url %}
   {% set pageDesc = description or excerpt or site.description %}
-  {% set pageImg = (site.url ~ heroImage) if heroImage else '' %}
+  {% set pageImg = (site.url ~ (heroImage | replace('/hero/', '/og/') | replace('.svg', '.png'))) if heroImage else '' %}
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:locale" content="es_ES">
   <meta property="og:type" content="{% if heroImage %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{{ title or site.title }}">
   <meta property="og:description" content="{{ pageDesc }}">
   <meta property="og:url" content="{{ pageUrl }}">
-  {% if pageImg %}<meta property="og:image" content="{{ pageImg }}">{% endif %}
+  {% if pageImg %}<meta property="og:image" content="{{ pageImg }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">{% endif %}
   <meta name="twitter:card" content="{% if pageImg %}summary_large_image{% else %}summary{% endif %}">
   {% if heroImage %}
   <script type="application/ld+json">{{ {
