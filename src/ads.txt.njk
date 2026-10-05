@@ -1,0 +1,8 @@
+---
+permalink: /ads.txt
+eleventyExcludeFromCollections: true
+---
+{% if site.adsense.publisherId %}google.com, {{ site.adsense.publisherId | replace("ca-", "") }}, DIRECT, f08c47fec0942fa0
+{% else %}# ads.txt pendiente: se rellena solo en cuanto site.adsense.publisherId
+# tenga un valor real en src/_data/site.js (ver README -> "Activar Google AdSense").
+{% endif %}

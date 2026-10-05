@@ -372,6 +372,7 @@ a { color: inherit; text-decoration: none; }
 .site-footer__inner { font-family: var(--sans); font-size: 13px; color: var(--ink-soft); }
 .site-footer__inner p { margin: 0 0 4px; }
 .site-footer__fine { font-size: 12px; opacity: 0.8; }
+.site-footer__fine a { text-decoration: underline; text-underline-offset: 2px; }
 
 /* ---------- Ad placeholders ---------- */
 .ad {
@@ -392,6 +393,12 @@ a { color: inherit; text-decoration: none; }
 
 .ad--banner { width: 100%; max-width: 728px; height: 90px; margin: 0 auto 36px; }
 .ad--rect { width: 100%; max-width: 336px; height: 180px; margin: 32px auto; }
+
+/* Real AdSense units (once site.adsense.publisherId + slots are filled in)
+   reuse the same spacing as the placeholders they replace. */
+.ad-slot { text-align: center; overflow: hidden; }
+.ad-slot--banner { max-width: 728px; margin: 0 auto 36px; }
+.ad-slot--rect { max-width: 336px; margin: 32px auto; }
 
 .ad--popup {
   position: fixed;

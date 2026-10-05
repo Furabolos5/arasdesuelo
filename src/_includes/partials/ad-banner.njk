@@ -1,4 +1,16 @@
+{% if site.adsense.publisherId and site.adsense.slots.banner %}
+<div class="ad-slot ad-slot--banner">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="{{ site.adsense.publisherId }}"
+       data-ad-slot="{{ site.adsense.slots.banner }}"
+       data-ad-format="horizontal"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{% else %}
 <div class="ad ad--banner" aria-hidden="true">
   <span class="ad__label">ANUNCIO</span>
   <span class="ad__dims">728 × 90</span>
 </div>
+{% endif %}
