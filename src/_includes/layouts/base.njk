@@ -5,6 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if title %}{{ title }} — {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}</title>
   <meta name="description" content="{{ description or site.description }}">
+  <link rel="canonical" href="{{ site.url ~ page.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | url }}">
+  {% if site.googleVerification %}<meta name="google-site-verification" content="{{ site.googleVerification }}">{% endif %}
+  {% set pageUrl = site.url ~ page.url %}
+  {% set pageDesc = description or excerpt or site.description %}
+  {% set pageImg = (site.url ~ heroImage) if heroImage else '' %}
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:type" content="{% if heroImage %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ title or site.title }}">
+  <meta property="og:description" content="{{ pageDesc }}">
+  <meta property="og:url" content="{{ pageUrl }}">
+  {% if pageImg %}<meta property="og:image" content="{{ pageImg }}">{% endif %}
+  <meta name="twitter:card" content="{% if pageImg %}summary_large_image{% else %}summary{% endif %}">
+  {% if heroImage %}
+  <script type="application/ld+json">{{ {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": pageDesc,
+    "datePublished": page.date | htmlDateString,
+    "inLanguage": site.lang,
+    "image": pageImg,
+    "mainEntityOfPage": pageUrl,
+    "author": { "@type": "Organization", "name": site.author },
+    "publisher": { "@type": "Organization", "name": site.title }
+  } | dump | safe }}</script>
+  {% endif %}
   <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

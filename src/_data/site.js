@@ -6,6 +6,8 @@ module.exports = {
   url: "https://furabolos5.github.io/arasdesuelo",
   author: "A ras de suelo",
   lang: "es",
+  // Etiqueta de verificación de Google Search Console (solo el valor de content).
+  googleVerification: "L4N4bO6f_xwRmvl-kaEK-ywIFMRiLDSeSVeMJnKBMik",
   // Giscus (GitHub Discussions comments) — fill these in after enabling
   // Discussions on the repo and registering the repo at giscus.app.
   giscus: {

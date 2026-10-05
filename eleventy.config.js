@@ -46,6 +46,8 @@ module.exports = function (eleventyConfig) {
     return Math.max(1, Math.round(words / 200));
   });
 
+  eleventyConfig.addFilter("limit", (arr, n) => (arr || []).slice(0, n));
+
   // Slugify filter for tag/tema/escuela URLs
   eleventyConfig.addFilter("slugify", (str) => {
     if (!str) return "";
