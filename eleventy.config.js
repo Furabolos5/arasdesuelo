@@ -21,6 +21,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });
 
+  eleventyConfig.addPassthroughCopy({ "src/google5765f2aa172b6a25.html": "google5765f2aa172b6a25.html" });
+
   // Watch CSS/JS for local dev
   eleventyConfig.addWatchTarget("src/css/");
   eleventyConfig.addWatchTarget("src/js/");
