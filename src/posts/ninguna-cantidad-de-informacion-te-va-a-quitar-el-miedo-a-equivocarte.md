@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "decisiones y dudas"
 escuela: "escepticismo"
 excerpt: "Tienes dos ofertas de trabajo, o dos ciudades, o dos maneras de resolver un problema en el equipo. Has hecho la lista de pros y contras tres"
+heroImage: "/images/hero/ninguna-cantidad-de-informacion-te-va-a-quitar-el-miedo-a-equivocarte.svg"
 permalink: "/ensayos/ninguna-cantidad-de-informacion-te-va-a-quitar-el-miedo-a-equivocarte/"
 layout: layouts/post.njk
 ---

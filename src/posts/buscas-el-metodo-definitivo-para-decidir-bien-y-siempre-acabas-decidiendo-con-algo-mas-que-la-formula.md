@@ -4,6 +4,7 @@ date: 2026-09-08
 tema: "decisiones y dudas"
 escuela: "ética de la virtud"
 excerpt: "Buscas el método definitivo para decidir bien: una matriz, un criterio, una regla que se pueda aplicar a cualquier situación y que garantice el"
+heroImage: "/images/hero/buscas-el-metodo-definitivo-para-decidir-bien-y-siempre-acabas-decidiendo-con-algo-mas-que-la-formula.svg"
 permalink: "/ensayos/buscas-el-metodo-definitivo-para-decidir-bien-y-siempre-acabas-decidiendo-con-algo-mas-que-la-formula/"
 layout: layouts/post.njk
 ---

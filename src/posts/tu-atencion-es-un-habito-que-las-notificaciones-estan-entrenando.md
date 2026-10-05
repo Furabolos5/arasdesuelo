@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "ansiedad digital"
 escuela: "ética de la virtud"
 excerpt: "Empiezas una tarea que requiere concentración y a los cuatro minutos ya has mirado el móvil sin que sonara nada. No es que hayas decidido"
+heroImage: "/images/hero/tu-atencion-es-un-habito-que-las-notificaciones-estan-entrenando.svg"
 permalink: "/ensayos/tu-atencion-es-un-habito-que-las-notificaciones-estan-entrenando/"
 layout: layouts/post.njk
 ---

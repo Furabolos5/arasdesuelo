@@ -12,12 +12,27 @@ npm run build   # genera el sitio en _site/
 
 ## Estructura
 
-- `src/posts/*.md` — los 36 ensayos, uno por archivo, con front matter (`title`, `date`, `tema`, `escuela`, `excerpt`).
-- `src/_data/` — datos globales: `site.js` (metadatos del sitio), `temasMeta.js` y `escuelasMeta.js` (etiquetas legibles para las categorías).
+- `src/posts/*.md` — los 36 ensayos, uno por archivo, con front matter (`title`, `date`, `tema`, `escuela`, `excerpt`, `heroImage`).
+- `src/_data/` — datos globales: `site.js` (metadatos del sitio), `temasMeta.js` y `escuelasMeta.js` (etiquetas legibles y el color de acento de cada categoría).
 - `src/_includes/layouts/` — plantillas base (`base.njk`) y de ensayo (`post.njk`).
+- `src/_includes/partials/post-card.njk` — la tarjeta con imagen que se reutiliza en portada, archivo, temas y escuelas.
 - `src/_includes/partials/ad-*.njk` — los cuatro huecos publicitarios (ver abajo).
+- `src/images/hero/*.svg` — una imagen de cabecera distinta por ensayo (ver abajo).
 - `src/css/style.css`, `src/js/main.js`, `src/js/search.js` — estilo y comportamiento, sin dependencias externas.
 - `scripts/build-posts.js` — script que generó los 36 archivos de `src/posts/` a partir de los datos migrados desde WordPress. No hace falta volver a ejecutarlo salvo que se reimporte contenido.
+- `scripts/generate-hero-images.js` — script que generó las imágenes de `src/images/hero/`. Vuelve a ejecutarlo (`node scripts/generate-hero-images.js`) si añades ensayos nuevos a mano y necesitas su imagen.
+
+## Imágenes de cabecera
+
+Cada ensayo tiene una ilustración abstracta propia (`src/images/hero/<slug>.svg`), generada por `scripts/generate-hero-images.js`: nada de bancos de fotos ni API keys. El color sale del `tema` del ensayo (`temasMeta.js`) y la composición (círculos, arcos, líneas, ondas o triángulos) se elige de forma determinista a partir del slug, así que cada ensayo tiene siempre la misma imagen aunque se regenere el sitio. Aparecen como cabecera a ancho completo en cada ensayo, como miniatura en las tarjetas de los listados, y como miniatura pequeña en los resultados de búsqueda.
+
+Para un ensayo nuevo escrito a mano (ver "Añadir el ensayo diario" más abajo), genera su imagen con:
+
+```bash
+node scripts/generate-hero-images.js
+```
+
+(el script procesa `articles.json`, así que para un ensayo que no viene de ese archivo basta con copiar el patrón de cualquier `.svg` existente y cambiar el `slug` en el nombre del archivo, o llamar a la función `generateSvg(slug, color)` del script a mano).
 
 ## Huecos publicitarios (solo placeholders — "ANUNCIO")
 
@@ -69,9 +84,10 @@ date: 2026-10-06
 tema: "ansiedad digital"
 escuela: "estoicismo"
 excerpt: "Primera frase o dos, para la vista previa."
+heroImage: "/images/hero/slug-del-ensayo.svg"
 permalink: "/ensayos/slug-del-ensayo/"
 layout: layouts/post.njk
 ---
 ```
 
-El valor de `tema` debe coincidir exactamente con una de las claves de `src/_data/temasMeta.js`, y `escuela` con una clave de `src/_data/escuelasMeta.js` (en minúsculas, tal como están ahí). Un push a `main` con el archivo nuevo despliega el ensayo automáticamente.
+El valor de `tema` debe coincidir exactamente con una de las claves de `src/_data/temasMeta.js`, y `escuela` con una clave de `src/_data/escuelasMeta.js` (en minúsculas, tal como están ahí). Antes del primer push para ese ensayo, genera su imagen de cabecera (ver "Imágenes de cabecera" arriba) para que `heroImage` apunte a un archivo que existe de verdad. Un push a `main` con el archivo nuevo despliega el ensayo automáticamente.

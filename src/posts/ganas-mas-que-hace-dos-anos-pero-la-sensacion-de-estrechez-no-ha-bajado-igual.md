@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "dinero y ambición"
 escuela: "fenomenología"
 excerpt: "Miras el saldo de la cuenta y, aunque cubre lo que necesitas este mes, aparece el mismo nudo de siempre. Ganas más que hace dos años. La"
+heroImage: "/images/hero/ganas-mas-que-hace-dos-anos-pero-la-sensacion-de-estrechez-no-ha-bajado-igual.svg"
 permalink: "/ensayos/ganas-mas-que-hace-dos-anos-pero-la-sensacion-de-estrechez-no-ha-bajado-igual/"
 layout: layouts/post.njk
 ---

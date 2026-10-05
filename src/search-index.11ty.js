@@ -13,6 +13,8 @@ class SearchIndex {
       title: p.data.title,
       url: p.url,
       excerpt: p.data.excerpt,
+      heroImage: p.data.heroImage,
+      temaColor: data.temasMeta[p.data.tema] ? data.temasMeta[p.data.tema].color : "#8a3b2e",
       tema: data.temasMeta[p.data.tema] ? data.temasMeta[p.data.tema].etiqueta : p.data.tema,
       escuela: data.escuelasMeta[p.data.escuela] ? data.escuelasMeta[p.data.escuela].etiqueta : p.data.escuela,
     }));

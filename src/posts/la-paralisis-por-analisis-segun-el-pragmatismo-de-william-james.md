@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "decisiones y dudas"
 escuela: "pragmatismo de William James"
 excerpt: "Tienes dos ofertas de piso, una hoja de cálculo con siete criterios ponderados y tres pestañas abiertas comparando barrios. Llevas nueve días"
+heroImage: "/images/hero/la-paralisis-por-analisis-segun-el-pragmatismo-de-william-james.svg"
 permalink: "/ensayos/la-paralisis-por-analisis-segun-el-pragmatismo-de-william-james/"
 layout: layouts/post.njk
 ---

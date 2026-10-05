@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "ansiedad digital"
 escuela: "absurdismo"
 excerpt: "Son las dos de la madrugada y sigues bajando. Una guerra, una catástrofe, un titular sobre la economía que no entiendes del todo pero que te"
+heroImage: "/images/hero/el-doomscrolling-es-una-respuesta-logica-a-un-mundo-absurdo.svg"
 permalink: "/ensayos/el-doomscrolling-es-una-respuesta-logica-a-un-mundo-absurdo/"
 layout: layouts/post.njk
 ---

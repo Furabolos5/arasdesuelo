@@ -14,11 +14,14 @@ description: null
 <section class="featured">
   <div class="wrap wrap--narrow">
     {% set ultimo = collections.ensayos[0] %}
-    <a href="{{ ultimo.url | url }}" class="featured__card">
-      <span class="featured__eyebrow">Último ensayo</span>
-      <h2 class="featured__title">{{ ultimo.data.title }}</h2>
-      <p class="featured__excerpt">{{ ultimo.data.excerpt }}</p>
-      <span class="featured__meta">{{ temasMeta[ultimo.data.tema].etiqueta }} · {{ escuelasMeta[ultimo.data.escuela].etiqueta }}</span>
+    <a href="{{ ultimo.url | url }}" class="featured__card" style="--tema-color: {{ temasMeta[ultimo.data.tema].color }};">
+      <img src="{{ ultimo.data.heroImage | url }}" alt="" class="featured__card-img" loading="eager">
+      <span class="featured__card-body">
+        <span class="featured__eyebrow">Último ensayo</span>
+        <h2 class="featured__title">{{ ultimo.data.title }}</h2>
+        <p class="featured__excerpt">{{ ultimo.data.excerpt }}</p>
+        <span class="featured__meta">{{ temasMeta[ultimo.data.tema].etiqueta }} · {{ escuelasMeta[ultimo.data.escuela].etiqueta }}</span>
+      </span>
     </a>
   </div>
 </section>
@@ -26,21 +29,16 @@ description: null
 <section class="archive-list">
   <div class="wrap wrap--narrow">
     <h2 class="section-title">Todos los ensayos</h2>
-    <ol class="post-list">
+    <div class="post-grid">
       {% for post in collections.ensayos %}
         {% if loop.index <= 12 %}
-        <li class="post-list__item">
-          <a href="{{ post.url | url }}" class="post-list__link">
-            <span class="post-list__title">{{ post.data.title }}</span>
-            <span class="post-list__meta">{{ temasMeta[post.data.tema].etiqueta }} · {{ post.date | htmlDateString | fechaEs }}</span>
-          </a>
-        </li>
+        {% include "partials/post-card.njk" %}
+        {% endif %}
         {% if loop.index == 6 %}
         {% include "partials/ad-rect.njk" %}
         {% endif %}
-        {% endif %}
       {% endfor %}
-    </ol>
+    </div>
     <a href="{{ '/ensayos/' | url }}" class="see-all">Ver todos los ensayos →</a>
   </div>
 </section>
@@ -50,7 +48,7 @@ description: null
     <h2 class="section-title">Explorar por problema</h2>
     <div class="temas-grid__grid">
       {% for tema, posts in collections.temas %}
-      <a href="{{ ('/temas/' + (tema | slugify) + '/') | url }}" class="tema-card">
+      <a href="{{ ('/temas/' + (tema | slugify) + '/') | url }}" class="tema-card" style="--tema-color: {{ temasMeta[tema].color }};">
         <span class="tema-card__title">{{ temasMeta[tema].etiqueta }}</span>
         <span class="tema-card__desc">{{ temasMeta[tema].descripcion }}</span>
         <span class="tema-card__count">{{ posts.length }} ensayo{{ 's' if posts.length != 1 }}</span>

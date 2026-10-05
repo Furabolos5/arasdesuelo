@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "tiempo y mortalidad"
 escuela: "estoicismo"
 excerpt: "Miras el informe semanal del móvil: tres horas diarias de pantalla, la mayoría en aplicaciones que ni recuerdas haber abierto. Y aun así,"
+heroImage: "/images/hero/falta-de-tiempo-lo-que-responde-seneca-desde-roma.svg"
 permalink: "/ensayos/falta-de-tiempo-lo-que-responde-seneca-desde-roma/"
 layout: layouts/post.njk
 ---

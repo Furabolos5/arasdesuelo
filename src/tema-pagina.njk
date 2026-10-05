@@ -13,20 +13,15 @@ eleventyComputed:
 {% set posts = temaEntry[1] %}
 <section class="archive-page">
   <div class="wrap wrap--narrow">
-    <header class="archive-page__header">
-      <p class="hero__kicker">Tema</p>
+    <header class="archive-page__header" style="--tema-color: {{ temasMeta[tema].color }};">
+      <p class="hero__kicker" style="color: var(--tema-color);">Tema</p>
       <h1 class="archive-page__title">{{ temasMeta[tema].etiqueta }}</h1>
       <p class="archive-page__count">{{ temasMeta[tema].descripcion }}</p>
     </header>
-    <ol class="post-list">
+    <div class="post-grid">
       {% for post in posts %}
-      <li class="post-list__item">
-        <a href="{{ post.url | url }}" class="post-list__link">
-          <span class="post-list__title">{{ post.data.title }}</span>
-          <span class="post-list__meta">{{ escuelasMeta[post.data.escuela].etiqueta }} · {{ post.date | htmlDateString | fechaEs }}</span>
-        </a>
-      </li>
+      {% include "partials/post-card.njk" %}
       {% endfor %}
-    </ol>
+    </div>
   </div>
 </section>

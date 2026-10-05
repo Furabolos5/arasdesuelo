@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<rect width="1200" height="630" fill="#eaf1ec"/>
+<circle cx="29" cy="208" r="33" fill="#398067" opacity="0.32"/>
+<circle cx="243" cy="251" r="32" fill="#88b7a5" opacity="0.45"/>
+<circle cx="139" cy="370" r="25" fill="#387e65" opacity="0.43"/>
+<circle cx="901" cy="542" r="20" fill="#3c896d" opacity="0.22"/>
+<circle cx="1088" cy="218" r="49" fill="#398168" opacity="0.45"/>
+<circle cx="143" cy="161" r="47" fill="#3b876b" opacity="0.46"/>
+<circle cx="154" cy="99" r="9" fill="#83b4a2" opacity="0.48"/>
+<circle cx="821" cy="198" r="35" fill="#397f66" opacity="0.34"/>
+<circle cx="270" cy="176" r="32" fill="#3a8369" opacity="0.42"/>
+<circle cx="515" cy="211" r="23" fill="#78ad99" opacity="0.27"/>
+<circle cx="109" cy="409" r="17" fill="#78ae9a" opacity="0.35"/>
+<circle cx="1080" cy="71" r="39" fill="#387c63" opacity="0.39"/>
+<circle cx="101" cy="166" r="13" fill="#3b876c" opacity="0.15"/>
+<circle cx="863" cy="66" r="39" fill="#7eb19e" opacity="0.18"/>
+<circle cx="736" cy="411" r="21" fill="#3b866b" opacity="0.37"/>
+<rect width="1200" height="630" fill="url(#vg)" opacity="0.5"/>
+<defs><radialGradient id="vg" cx="50%" cy="40%" r="75%"><stop offset="0%" stop-color="#fdfcfa" stop-opacity="0"/><stop offset="100%" stop-color="#fdfcfa" stop-opacity="0.35"/></radialGradient></defs>
+</svg>

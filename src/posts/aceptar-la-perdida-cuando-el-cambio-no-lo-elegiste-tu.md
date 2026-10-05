@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "pérdida y duelo"
 escuela: "taoísmo"
 excerpt: "Aceptar la pérdida suena, cuando alguien te lo dice, a consejo barato. Han pasado tres semanas desde que tu pareja se fue, y sigues abriendo"
+heroImage: "/images/hero/aceptar-la-perdida-cuando-el-cambio-no-lo-elegiste-tu.svg"
 permalink: "/ensayos/aceptar-la-perdida-cuando-el-cambio-no-lo-elegiste-tu/"
 layout: layouts/post.njk
 ---

@@ -18,15 +18,10 @@ eleventyComputed:
       <h1 class="archive-page__title">{{ escuelasMeta[escuela].etiqueta }}</h1>
       <p class="archive-page__count">{{ escuelasMeta[escuela].pensador }}</p>
     </header>
-    <ol class="post-list">
+    <div class="post-grid">
       {% for post in posts %}
-      <li class="post-list__item">
-        <a href="{{ post.url | url }}" class="post-list__link">
-          <span class="post-list__title">{{ post.data.title }}</span>
-          <span class="post-list__meta">{{ temasMeta[post.data.tema].etiqueta }} · {{ post.date | htmlDateString | fechaEs }}</span>
-        </a>
-      </li>
+      {% include "partials/post-card.njk" %}
       {% endfor %}
-    </ol>
+    </div>
   </div>
 </section>

@@ -11,18 +11,13 @@ permalink: /ensayos/
       <p class="archive-page__count">{{ collections.ensayos.length }} ensayos y contando — uno nuevo cada día.</p>
     </header>
 
-    <ol class="post-list">
+    <div class="post-grid">
       {% for post in collections.ensayos %}
-        <li class="post-list__item">
-          <a href="{{ post.url | url }}" class="post-list__link">
-            <span class="post-list__title">{{ post.data.title }}</span>
-            <span class="post-list__meta">{{ temasMeta[post.data.tema].etiqueta }} · {{ escuelasMeta[post.data.escuela].etiqueta }} · {{ post.date | htmlDateString | fechaEs }}</span>
-          </a>
-        </li>
+        {% include "partials/post-card.njk" %}
         {% if loop.index == 10 or loop.index == 24 %}
         {% include "partials/ad-rect.njk" %}
         {% endif %}
       {% endfor %}
-    </ol>
+    </div>
   </div>
 </section>

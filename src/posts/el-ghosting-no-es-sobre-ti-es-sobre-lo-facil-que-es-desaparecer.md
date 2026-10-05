@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "amor y citas"
 escuela: "nihilismo"
 excerpt: "Llevabas tres semanas hablando todos los días. Planes concretos, una cita que salió bien, mensajes por la mañana. Y de golpe, silencio. Sin"
+heroImage: "/images/hero/el-ghosting-no-es-sobre-ti-es-sobre-lo-facil-que-es-desaparecer.svg"
 permalink: "/ensayos/el-ghosting-no-es-sobre-ti-es-sobre-lo-facil-que-es-desaparecer/"
 layout: layouts/post.njk
 ---

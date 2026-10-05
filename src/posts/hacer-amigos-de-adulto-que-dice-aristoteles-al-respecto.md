@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "soledad y vínculos"
 escuela: "ética de la virtud"
 excerpt: "Es la tercera vez este año que quedas con alguien «para poneros al día» y la conversación se queda en el trabajo y en los hijos de los demás."
+heroImage: "/images/hero/hacer-amigos-de-adulto-que-dice-aristoteles-al-respecto.svg"
 permalink: "/ensayos/hacer-amigos-de-adulto-que-dice-aristoteles-al-respecto/"
 layout: layouts/post.njk
 ---

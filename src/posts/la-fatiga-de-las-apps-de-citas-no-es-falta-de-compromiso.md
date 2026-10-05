@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "amor y citas"
 escuela: "existencialismo de Sartre"
 excerpt: "Son las once y media de la noche. Llevas cuarenta minutos deslizando perfiles en la cama, tienes cuatro coincidencias nuevas y no le has"
+heroImage: "/images/hero/la-fatiga-de-las-apps-de-citas-no-es-falta-de-compromiso.svg"
 permalink: "/ensayos/la-fatiga-de-las-apps-de-citas-no-es-falta-de-compromiso/"
 layout: layouts/post.njk
 ---

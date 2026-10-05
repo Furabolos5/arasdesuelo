@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "identidad y propósito"
 escuela: "pragmatismo de William James"
 excerpt: "Alguien te dice, medio en broma, que has cambiado mucho desde que os conocisteis. Lo dice como observación, pero tú lo escuchas como acusación."
+heroImage: "/images/hero/cambiar-de-opinion-no-significa-que-la-version-anterior-de-ti-fuera-falsa.svg"
 permalink: "/ensayos/cambiar-de-opinion-no-significa-que-la-version-anterior-de-ti-fuera-falsa/"
 layout: layouts/post.njk
 ---

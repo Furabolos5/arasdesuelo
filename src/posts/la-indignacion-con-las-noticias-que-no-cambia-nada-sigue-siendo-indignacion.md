@@ -4,6 +4,7 @@ date: 2026-09-08
 tema: "ira y conflicto"
 escuela: "nihilismo"
 excerpt: "Abres el móvil, ves un titular, y la indignación llega antes de terminar de leer la primera línea. Compartes, comentas, discutes en un hilo con"
+heroImage: "/images/hero/la-indignacion-con-las-noticias-que-no-cambia-nada-sigue-siendo-indignacion.svg"
 permalink: "/ensayos/la-indignacion-con-las-noticias-que-no-cambia-nada-sigue-siendo-indignacion/"
 layout: layouts/post.njk
 ---

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<rect width="1200" height="630" fill="#f2efe7"/>
+<circle cx="843" cy="422" r="60" fill="none" stroke="#8a7a3c" stroke-width="2" opacity="0.50"/>
+<circle cx="843" cy="422" r="136" fill="none" stroke="#ada175" stroke-width="2" opacity="0.46"/>
+<circle cx="843" cy="422" r="204" fill="none" stroke="#8a7a3c" stroke-width="2" opacity="0.42"/>
+<circle cx="843" cy="422" r="312" fill="none" stroke="#ada175" stroke-width="2" opacity="0.38"/>
+<circle cx="843" cy="422" r="364" fill="none" stroke="#8a7a3c" stroke-width="2" opacity="0.34"/>
+<rect width="1200" height="630" fill="url(#vg)" opacity="0.5"/>
+<defs><radialGradient id="vg" cx="50%" cy="40%" r="75%"><stop offset="0%" stop-color="#fdfcfa" stop-opacity="0"/><stop offset="100%" stop-color="#fdfcfa" stop-opacity="0.35"/></radialGradient></defs>
+</svg>

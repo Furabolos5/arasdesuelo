@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "amor y citas"
 escuela: "escepticismo"
 excerpt: "Llevas un año con alguien, las cosas van razonablemente bien, y aun así hay noches en las que la pregunta vuelve: ¿es esta la persona correcta,"
+heroImage: "/images/hero/es-la-persona-correcta-o-me-estoy-conformando.svg"
 permalink: "/ensayos/es-la-persona-correcta-o-me-estoy-conformando/"
 layout: layouts/post.njk
 ---

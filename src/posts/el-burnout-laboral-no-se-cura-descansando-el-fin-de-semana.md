@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "agotamiento y trabajo"
 escuela: "estoicismo"
 excerpt: "Es domingo por la tarde. Has dormido nueve horas, has salido a andar, no tienes nada urgente pendiente. Y aun así, pensar en abrir el"
+heroImage: "/images/hero/el-burnout-laboral-no-se-cura-descansando-el-fin-de-semana.svg"
 permalink: "/ensayos/el-burnout-laboral-no-se-cura-descansando-el-fin-de-semana/"
 layout: layouts/post.njk
 ---

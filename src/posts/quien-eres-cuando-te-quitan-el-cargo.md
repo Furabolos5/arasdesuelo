@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "identidad y propósito"
 escuela: "fenomenología"
 excerpt: "Alguien te pregunta en una cena qué haces, y respondes con un cargo: «soy directora de», «trabajo en». Es automático. Pero prueba a imaginar"
+heroImage: "/images/hero/quien-eres-cuando-te-quitan-el-cargo.svg"
 permalink: "/ensayos/quien-eres-cuando-te-quitan-el-cargo/"
 layout: layouts/post.njk
 ---

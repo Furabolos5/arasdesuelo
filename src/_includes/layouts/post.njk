@@ -1,7 +1,12 @@
 ---
 layout: layouts/base.njk
 ---
-<article class="post">
+<article class="post" style="--tema-color: {{ temasMeta[tema].color }};">
+  <div class="post__hero">
+    <img src="{{ heroImage | url }}" alt="" class="post__hero-img" width="1200" height="630" loading="eager">
+    <div class="post__hero-fade"></div>
+  </div>
+
   <div class="wrap wrap--narrow">
     <header class="post__header">
       <div class="post__meta">
@@ -31,9 +36,12 @@ layout: layouts/base.njk
       <h2 class="related__title">Sigue leyendo</h2>
       <div class="related__grid">
         {% for r in relacionados %}
-        <a href="{{ r.url | url }}" class="related__card">
-          <span class="related__card-tag">{{ temasMeta[r.data.tema].etiqueta }}</span>
-          <span class="related__card-title">{{ r.data.title }}</span>
+        <a href="{{ r.url | url }}" class="related__card" style="--tema-color: {{ temasMeta[r.data.tema].color }};">
+          <img src="{{ r.data.heroImage | url }}" alt="" class="related__card-img" loading="lazy">
+          <span class="related__card-body">
+            <span class="related__card-tag">{{ temasMeta[r.data.tema].etiqueta }}</span>
+            <span class="related__card-title">{{ r.data.title }}</span>
+          </span>
         </a>
         {% endfor %}
       </div>

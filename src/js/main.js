@@ -54,6 +54,43 @@
     }
   });
 
+  /* ---------- Scroll reveal for card grids ---------- */
+  var revealTargets = document.querySelectorAll(".post-card, .tema-card, .featured__card, .related__card");
+  if (revealTargets.length && "IntersectionObserver" in window) {
+    revealTargets.forEach(function (el) {
+      el.classList.add("reveal");
+    });
+    var io = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      // Generous margin: triggers well before the element is fully in view,
+      // so a late web-font reflow (which shifts everything below it) can't
+      // leave a card stuck invisible after the observer already fired once.
+      { threshold: 0, rootMargin: "400px 0px 400px 0px" }
+    );
+    revealTargets.forEach(function (el) {
+      io.observe(el);
+    });
+    // Safety net: if anything is still hidden a few seconds in (slow font
+    // load, unusual viewport, a browser quirk), just show it. Content
+    // should never depend on an animation firing correctly.
+    setTimeout(function () {
+      revealTargets.forEach(function (el) {
+        el.classList.add("is-visible");
+      });
+    }, 2500);
+  } else {
+    revealTargets.forEach(function (el) {
+      el.classList.add("is-visible");
+    });
+  }
+
   /* ---------- Ad placeholders: popup + corner ---------- */
   // Session-scoped dismissal so a closed placeholder doesn't reappear on
   // every page view within the same visit, but does come back next session.

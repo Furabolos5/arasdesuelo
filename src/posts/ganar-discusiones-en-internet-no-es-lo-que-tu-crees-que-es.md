@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "ira y conflicto"
 escuela: "budismo zen"
 excerpt: "Son las once de la noche. Alguien ha escrito un comentario equivocado sobre algo que te importa, con la seguridad de quien nunca se ha"
+heroImage: "/images/hero/ganar-discusiones-en-internet-no-es-lo-que-tu-crees-que-es.svg"
 permalink: "/ensayos/ganar-discusiones-en-internet-no-es-lo-que-tu-crees-que-es/"
 layout: layouts/post.njk
 ---

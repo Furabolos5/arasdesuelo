@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "pérdida y duelo"
 escuela: "budismo zen"
 excerpt: "Hay una foto que sigues mirando aunque sabes que te va a doler. No porque hayas olvidado lo que pasó, sino porque una parte de ti sigue"
+heroImage: "/images/hero/el-duelo-pesa-menos-cuando-dejas-de-exigir-que-las-cosas-sigan-igual.svg"
 permalink: "/ensayos/el-duelo-pesa-menos-cuando-dejas-de-exigir-que-las-cosas-sigan-igual/"
 layout: layouts/post.njk
 ---

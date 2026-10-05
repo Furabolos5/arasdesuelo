@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "ansiedad digital"
 escuela: "cinismo griego"
 excerpt: "Abres la aplicación esperando dos minutos y llevas veinte. Alguien de tu curso está en Bali, otro acaba de anunciar un ascenso, una amiga"
+heroImage: "/images/hero/compararse-en-redes-sociales-segun-los-cinicos-griegos.svg"
 permalink: "/ensayos/compararse-en-redes-sociales-segun-los-cinicos-griegos/"
 layout: layouts/post.njk
 ---

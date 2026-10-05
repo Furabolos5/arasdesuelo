@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<rect width="1200" height="630" fill="#f2eae7"/>
+<path d="M -50 123 L -50 123 L 4 158 L 58 183 L 113 191 L 167 179 L 221 150 L 275 114 L 329 81 L 383 60 L 438 57 L 492 74 L 546 105 L 600 141 L 654 172 L 708 189 L 763 187 L 817 166 L 871 133 L 925 97 L 979 68 L 1033 56 L 1088 63 L 1142 87 L 1196 122 L 1250 157 " fill="none" stroke="#8a4a3c" stroke-width="5.8" opacity="0.41"/>
+<path d="M -50 199 L -50 199 L 4 216 L 58 231 L 113 242 L 167 249 L 221 250 L 275 245 L 329 236 L 383 222 L 438 206 L 492 189 L 546 173 L 600 160 L 654 151 L 708 148 L 763 150 L 817 158 L 871 170 L 925 186 L 979 203 L 1033 219 L 1088 233 L 1142 244 L 1196 250 L 1250 249 " fill="none" stroke="#ad7f75" stroke-width="5.5" opacity="0.53"/>
+<path d="M -50 321 L -50 321 L 4 339 L 58 350 L 113 353 L 167 345 L 221 329 L 275 311 L 329 296 L 383 289 L 438 293 L 492 305 L 546 323 L 600 340 L 654 351 L 708 353 L 763 344 L 817 328 L 871 310 L 925 295 L 979 289 L 1033 293 L 1088 307 L 1142 325 L 1196 341 L 1250 352 " fill="none" stroke="#8a4a3c" stroke-width="2.9" opacity="0.50"/>
+<path d="M -50 392 L -50 392 L 4 403 L 58 411 L 113 414 L 167 411 L 221 403 L 275 393 L 329 382 L 383 374 L 438 371 L 492 373 L 546 380 L 600 391 L 654 402 L 708 410 L 763 414 L 817 412 L 871 404 L 925 394 L 979 383 L 1033 375 L 1088 371 L 1142 373 L 1196 380 L 1250 390 " fill="none" stroke="#ad7f75" stroke-width="3.7" opacity="0.44"/>
+<path d="M -50 525 L -50 525 L 4 559 L 58 581 L 113 585 L 167 569 L 221 538 L 275 503 L 329 475 L 383 464 L 438 473 L 492 499 L 546 534 L 600 566 L 654 584 L 708 583 L 763 562 L 817 529 L 871 495 L 925 470 L 979 464 L 1033 478 L 1088 508 L 1142 543 L 1196 572 L 1250 586 " fill="none" stroke="#8a4a3c" stroke-width="3.8" opacity="0.39"/>
+<rect width="1200" height="630" fill="url(#vg)" opacity="0.5"/>
+<defs><radialGradient id="vg" cx="50%" cy="40%" r="75%"><stop offset="0%" stop-color="#fdfcfa" stop-opacity="0"/><stop offset="100%" stop-color="#fdfcfa" stop-opacity="0.35"/></radialGradient></defs>
+</svg>

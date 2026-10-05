@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "dinero y ambición"
 escuela: "cinismo griego"
 excerpt: "Compras algo que en realidad no necesitabas, y en el momento de pagarlo sientes una descarga de satisfacción que dura, si acaso, hasta que lo"
+heroImage: "/images/hero/gastar-para-demostrar-algo-cansa-mas-que-gastar-para-resolver-algo.svg"
 permalink: "/ensayos/gastar-para-demostrar-algo-cansa-mas-que-gastar-para-resolver-algo/"
 layout: layouts/post.njk
 ---

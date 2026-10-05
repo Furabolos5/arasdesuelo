@@ -47,10 +47,17 @@
       .slice(0, 12)
       .map(function (m) {
         return (
-          '<a class="search-result" href="' +
+          '<a class="search-result" style="--tema-color: ' +
+          escapeHtml(m.temaColor || "#8a3b2e") +
+          '" href="' +
           base +
           m.url +
           '">' +
+          '<img class="search-result__img" src="' +
+          base +
+          m.heroImage +
+          '" alt="" loading="lazy">' +
+          '<span class="search-result__text">' +
           '<span class="search-result__title">' +
           escapeHtml(m.title) +
           "</span>" +
@@ -58,6 +65,7 @@
           escapeHtml(m.tema) +
           " · " +
           escapeHtml(m.escuela) +
+          "</span>" +
           "</span>" +
           "</a>"
         );

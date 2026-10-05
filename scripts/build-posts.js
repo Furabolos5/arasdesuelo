@@ -29,6 +29,7 @@ function main() {
       `tema: ${yamlEscape(a.tema)}`,
       `escuela: ${yamlEscape(a.escuela)}`,
       `excerpt: ${yamlEscape(a.excerpt)}`,
+      `heroImage: "/images/hero/${a.slug}.svg"`,
       `permalink: "/ensayos/${a.slug}/"`,
       "layout: layouts/post.njk",
       "---",

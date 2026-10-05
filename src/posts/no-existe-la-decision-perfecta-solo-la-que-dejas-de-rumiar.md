@@ -4,6 +4,7 @@ date: 2026-09-07
 tema: "decisiones y dudas"
 escuela: "taoísmo"
 excerpt: "Ya has decidido. Firmaste, aceptaste, dijiste que sí. Y en vez de sentir el alivio de haber cerrado la duda, empiezas otra distinta: ¿y si la"
+heroImage: "/images/hero/no-existe-la-decision-perfecta-solo-la-que-dejas-de-rumiar.svg"
 permalink: "/ensayos/no-existe-la-decision-perfecta-solo-la-que-dejas-de-rumiar/"
 layout: layouts/post.njk
 ---

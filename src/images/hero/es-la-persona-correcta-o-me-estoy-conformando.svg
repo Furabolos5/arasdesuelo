@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<rect width="1200" height="630" fill="#f5eaec"/>
+<g transform="translate(745 258) rotate(15)"><polygon points="0,-38.9047539094463 38.9047539094463,38.9047539094463 -38.9047539094463,38.9047539094463" fill="#be7490" opacity="0.37"/></g>
+<g transform="translate(858 348) rotate(111)"><polygon points="0,-76.77974857157096 76.77974857157096,76.77974857157096 -76.77974857157096,76.77974857157096" fill="#9c4164" opacity="0.22"/></g>
+<g transform="translate(259 63) rotate(85)"><polygon points="0,-22.668038778938353 22.668038778938353,22.668038778938353 -22.668038778938353,22.668038778938353" fill="#a44469" opacity="0.25"/></g>
+<g transform="translate(1038 323) rotate(211)"><polygon points="0,-33.97894189693034 33.97894189693034,33.97894189693034 -33.97894189693034,33.97894189693034" fill="#c98ba2" opacity="0.17"/></g>
+<g transform="translate(631 551) rotate(126)"><polygon points="0,-76.28180819796398 76.28180819796398,76.28180819796398 -76.28180819796398,76.28180819796398" fill="#a54469" opacity="0.26"/></g>
+<g transform="translate(1141 181) rotate(211)"><polygon points="0,-82.57370041450486 82.57370041450486,82.57370041450486 -82.57370041450486,82.57370041450486" fill="#9d4264" opacity="0.37"/></g>
+<g transform="translate(360 20) rotate(241)"><polygon points="0,-41.79687045747414 41.79687045747414,41.79687045747414 -41.79687045747414,41.79687045747414" fill="#9d4265" opacity="0.18"/></g>
+<g transform="translate(685 446) rotate(301)"><polygon points="0,-69.14937042631209 69.14937042631209,69.14937042631209 -69.14937042631209,69.14937042631209" fill="#c27e97" opacity="0.25"/></g>
+<g transform="translate(212 403) rotate(337)"><polygon points="0,-21.443684913683683 21.443684913683683,21.443684913683683 -21.443684913683683,21.443684913683683" fill="#c38099" opacity="0.31"/></g>
+<g transform="translate(172 20) rotate(346)"><polygon points="0,-72.91347280843183 72.91347280843183,72.91347280843183 -72.91347280843183,72.91347280843183" fill="#9f4266" opacity="0.14"/></g>
+<rect width="1200" height="630" fill="url(#vg)" opacity="0.5"/>
+<defs><radialGradient id="vg" cx="50%" cy="40%" r="75%"><stop offset="0%" stop-color="#fdfcfa" stop-opacity="0"/><stop offset="100%" stop-color="#fdfcfa" stop-opacity="0.35"/></radialGradient></defs>
+</svg>
