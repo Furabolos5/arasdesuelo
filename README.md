@@ -12,7 +12,7 @@ npm run build   # genera el sitio en _site/
 
 ## Estructura
 
-- `src/posts/*.md` — los 36 ensayos, uno por archivo, con front matter (`title`, `date`, `tema`, `escuela`, `excerpt`, `heroImage`).
+- `src/posts/*.md` — los 42 ensayos, uno por archivo, con front matter (`title`, `date`, `tema`, `escuela`, `excerpt`, `heroImage`).
 - `src/_data/` — datos globales: `site.js` (metadatos del sitio), `temasMeta.js` y `escuelasMeta.js` (etiquetas legibles y el color de acento de cada categoría).
 - `src/_includes/layouts/` — plantillas base (`base.njk`) y de ensayo (`post.njk`).
 - `src/_includes/partials/post-card.njk` — la tarjeta con imagen que se reutiliza en portada, archivo, temas y escuelas.
@@ -60,7 +60,7 @@ El sitio está preparado para AdSense, pero **no hay ninguna cuenta conectada to
 ### 1. Requisitos antes de solicitar
 
 - El sitio tiene que estar ya publicado y accesible (ver "Despliegue en GitHub Pages" abajo) — Google revisa el sitio en vivo, no el código.
-- Contenido original suficiente: los 36 ensayos ya cumplen esto de sobra.
+- Contenido original suficiente: los 42 ensayos ya cumplen esto de sobra.
 - Páginas legales: AdSense pide normalmente una página de política de privacidad. Este repositorio no incluye una todavía — hay que añadirla antes de solicitar (puede ser una página Eleventy más, en `src/privacidad.njk`).
 
 ### 2. Solicitar la cuenta
