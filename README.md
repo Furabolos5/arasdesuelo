@@ -65,7 +65,7 @@ El sitio está preparado para AdSense, pero **no hay ninguna cuenta conectada to
 ### 2. Solicitar la cuenta
 
 1. Entra en [adsense.google.com](https://adsense.google.com) con la cuenta de Google que vaya a gestionar el sitio.
-2. Añade el sitio (`https://furabolos5.github.io/arasdesuelo` si se usa el subdominio gratuito, o el dominio propio si se conecta uno).
+2. Añade el sitio (`https://arasdesuelo.com`).
 3. Google da un snippet con el `publisherId` (formato `ca-pub-XXXXXXXXXXXXXXXX`) para verificar el sitio. Pégalo en `src/_data/site.js`, en `adsense.publisherId` — en cuanto esté ahí, el sitio inserta automáticamente la etiqueta de verificación y el script de AdSense en el `<head>` de cada página.
 4. Haz commit y push; el despliegue automático (GitHub Actions) publica el cambio y Google puede verificar el sitio.
 5. La revisión de Google suele tardar entre unos días y unas semanas. Hasta que apruebe, el sitio sigue funcionando exactamente igual (los huecos se quedan en modo "ANUNCIO").
@@ -100,7 +100,7 @@ El repositorio ya incluye el flujo `.github/workflows/deploy.yml`: cada push a `
 Para activarlo la primera vez:
 
 1. En GitHub, ve a **Settings → Pages** y, en "Build and deployment", selecciona **GitHub Actions** como fuente (en vez de "Deploy from a branch").
-2. Haz el primer push (ver abajo). El workflow se ejecuta solo y, al terminar, el sitio queda publicado en `https://furabolos5.github.io/arasdesuelo/`.
+2. Haz el primer push (ver abajo). El workflow se ejecuta solo y, al terminar, el sitio queda publicado en `https://arasdesuelo.com/`.
 
 ```bash
 git init

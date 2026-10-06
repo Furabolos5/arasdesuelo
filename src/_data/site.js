@@ -3,7 +3,7 @@ module.exports = {
   tagline: "Filosofía aplicada a problemas de hoy",
   description:
     "Estoicismo, existencialismo, taoísmo y absurdismo traducidos en respuestas concretas para el agotamiento, la ansiedad digital, las citas y la parálisis de decidir.",
-  url: "https://furabolos5.github.io/arasdesuelo",
+  url: "https://arasdesuelo.com",
   author: "A ras de suelo",
   lang: "es",
   // Etiqueta de verificación de Google Search Console (solo el valor de content).
