@@ -33,7 +33,7 @@ module.exports = {
   // ads en el panel de AdSense — es el formato que Google aprueba para
   // esto, sin tocar código. Ver README → "Activar Google AdSense".
   adsense: {
-    publisherId: "",
+    publisherId: "ca-pub-3119188363951301",
     slots: {
       banner: "", // 728×90, debajo del título de cada ensayo
       rect: "", // 336×280, insertado en los listados
