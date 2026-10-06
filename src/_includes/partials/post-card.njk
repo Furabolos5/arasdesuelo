@@ -1,11 +1,12 @@
 {# Expects `post` (an Eleventy collection item) in scope. #}
 <a href="{{ post.url | url }}" class="post-card" style="--tema-color: {{ temasMeta[post.data.tema].color }};">
   <span class="post-card__img-wrap">
-    <img src="{{ post.data.heroImage | url }}" alt="" class="post-card__img" loading="lazy">
+    <img src="{{ post.data.heroImage | url }}" alt="" class="post-card__img" width="1200" height="630" loading="lazy">
+    <span class="post-card__chip">{{ temasMeta[post.data.tema].etiqueta }}</span>
   </span>
   <span class="post-card__body">
-    <span class="post-card__tag">{{ temasMeta[post.data.tema].etiqueta }}</span>
     <span class="post-card__title">{{ post.data.title }}</span>
-    <span class="post-card__meta">{{ escuelasMeta[post.data.escuela].etiqueta }} · {{ post.date | htmlDateString | fechaEs }}</span>
+    <span class="post-card__excerpt">{{ post.data.excerpt | truncate(110) }}</span>
+    <span class="post-card__meta">{{ escuelasMeta[post.data.escuela].etiqueta }} · {{ post.date | fechaEs }} · {{ post.templateContent | tiempoLectura }} min</span>
   </span>
 </a>

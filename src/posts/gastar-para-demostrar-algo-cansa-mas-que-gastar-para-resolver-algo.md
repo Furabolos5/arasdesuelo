@@ -1,6 +1,6 @@
 ---
 title: "Gastar para demostrar algo cansa más que gastar para resolver algo"
-date: 2026-09-07
+date: 2026-09-20
 tema: "dinero y ambición"
 escuela: "cinismo griego"
 excerpt: "Compras algo que en realidad no necesitabas, y en el momento de pagarlo sientes una descarga de satisfacción que dura, si acaso, hasta que lo"

@@ -1,6 +1,6 @@
 ---
 title: "Descanso y productividad no son fuerzas contrarias"
-date: 2026-09-07
+date: 2026-07-10
 tema: "agotamiento y trabajo"
 escuela: "taoísmo"
 excerpt: "Llevas dos horas delante del mismo párrafo. Lo reescribes, lo borras, abres otra pestaña, vuelves. El texto no avanza y tú tampoco descansas:"

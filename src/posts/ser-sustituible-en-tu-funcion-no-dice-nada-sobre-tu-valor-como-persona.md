@@ -1,6 +1,6 @@
 ---
 title: "Ser sustituible en tu funcion no dice nada sobre tu valor como persona"
-date: 2026-09-08
+date: 2026-07-18
 tema: "soledad y vínculos"
 escuela: "nihilismo"
 excerpt: "Trabajas en una empresa de varios miles de personas, vives en una ciudad de varios millones, participas en comunidades online de decenas de miles"

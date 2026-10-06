@@ -1,6 +1,6 @@
 ---
 title: "La indignacion con las noticias que no cambia nada sigue siendo indignacion"
-date: 2026-09-08
+date: 2026-06-16
 tema: "ira y conflicto"
 escuela: "nihilismo"
 excerpt: "Abres el móvil, ves un titular, y la indignación llega antes de terminar de leer la primera línea. Compartes, comentas, discutes en un hilo con"

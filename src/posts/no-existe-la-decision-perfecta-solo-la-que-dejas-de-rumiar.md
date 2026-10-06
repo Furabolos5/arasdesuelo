@@ -1,6 +1,6 @@
 ---
 title: "No existe la decisión perfecta, solo la que dejas de rumiar"
-date: 2026-09-07
+date: 2026-08-11
 tema: "decisiones y dudas"
 escuela: "taoísmo"
 excerpt: "Ya has decidido. Firmaste, aceptaste, dijiste que sí. Y en vez de sentir el alivio de haber cerrado la duda, empiezas otra distinta: ¿y si la"

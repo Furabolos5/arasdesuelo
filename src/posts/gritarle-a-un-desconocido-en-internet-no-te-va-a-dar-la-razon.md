@@ -1,6 +1,6 @@
 ---
 title: "Gritarle a un desconocido en internet no te va a dar la razón"
-date: 2026-09-07
+date: 2026-07-22
 tema: "ira y conflicto"
 escuela: "estoicismo"
 excerpt: "Respondes a un comentario que te ha parecido injusto. Escribes rápido, borras, reescribes con más filo. Tres respuestas después llevas veinte"

@@ -1,6 +1,6 @@
 ---
 title: "El duelo pesa menos cuando dejas de exigir que las cosas sigan igual"
-date: 2026-09-07
+date: 2026-09-28
 tema: "pérdida y duelo"
 escuela: "budismo zen"
 excerpt: "Hay una foto que sigues mirando aunque sabes que te va a doler. No porque hayas olvidado lo que pasó, sino porque una parte de ti sigue"

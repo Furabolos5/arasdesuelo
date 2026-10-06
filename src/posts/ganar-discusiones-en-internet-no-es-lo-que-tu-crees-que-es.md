@@ -1,6 +1,6 @@
 ---
 title: "Ganar discusiones en internet no es lo que tú crees que es"
-date: 2026-09-07
+date: 2026-06-24
 tema: "ira y conflicto"
 escuela: "budismo zen"
 excerpt: "Son las once de la noche. Alguien ha escrito un comentario equivocado sobre algo que te importa, con la seguridad de quien nunca se ha"

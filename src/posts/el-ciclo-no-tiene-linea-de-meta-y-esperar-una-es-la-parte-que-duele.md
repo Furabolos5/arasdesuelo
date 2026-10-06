@@ -1,6 +1,6 @@
 ---
 title: "El ciclo no tiene linea de meta, y esperar una es la parte que duele"
-date: 2026-09-08
+date: 2026-06-12
 tema: "agotamiento y trabajo"
 escuela: "absurdismo"
 excerpt: "Terminas la bandeja de entrada un viernes y el lunes vuelve a estar llena. Cierras un ciclo de producción y el siguiente ya está en cola antes de que"

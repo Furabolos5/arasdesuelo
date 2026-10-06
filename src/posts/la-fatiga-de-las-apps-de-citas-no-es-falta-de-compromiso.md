@@ -1,6 +1,6 @@
 ---
 title: "La fatiga de las apps de citas no es falta de compromiso"
-date: 2026-09-07
+date: 2026-08-03
 tema: "amor y citas"
 escuela: "existencialismo de Sartre"
 excerpt: "Son las once y media de la noche. Llevas cuarenta minutos deslizando perfiles en la cama, tienes cuatro coincidencias nuevas y no le has"

@@ -1,6 +1,6 @@
 ---
 title: "Hay dos miedos distintos que confundimos bajo la palabra muerte"
-date: 2026-09-08
+date: 2026-10-02
 tema: "pérdida y duelo"
 escuela: "epicureísmo"
 excerpt: "Dos miedos se mezclan a menudo bajo la misma palabra. Uno es el miedo a tu propia muerte, a dejar de existir. El otro es el miedo a perder a"

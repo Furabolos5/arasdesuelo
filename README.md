@@ -20,20 +20,21 @@ npm run build   # genera el sitio en _site/
 - `src/images/hero/*.svg` — una imagen de cabecera distinta por ensayo (ver abajo).
 - `src/css/style.css`, `src/js/main.js`, `src/js/search.js` — estilo y comportamiento, sin dependencias externas.
 - `scripts/build-posts.js` — script que generó los 36 archivos de `src/posts/` a partir de los datos migrados desde WordPress. No hace falta volver a ejecutarlo salvo que se reimporte contenido.
-- `scripts/generate-hero-images.js` — script que generó las imágenes de `src/images/hero/`. Vuelve a ejecutarlo (`node scripts/generate-hero-images.js`) si añades ensayos nuevos a mano y necesitas su imagen.
+- `scripts/generate-hero-art.js` y `scripts/generate-og-images.js` — generan las ilustraciones de cabecera y las imágenes para redes (ver abajo).
 - `src/ads.txt.njk` — genera `/ads.txt` a partir de `site.adsense.publisherId`. No hace falta tocarlo nunca a mano (ver "Activar Google AdSense" abajo).
 
 ## Imágenes de cabecera
 
-Cada ensayo tiene una ilustración abstracta propia (`src/images/hero/<slug>.svg`), generada por `scripts/generate-hero-images.js`: nada de bancos de fotos ni API keys. El color sale del `tema` del ensayo (`temasMeta.js`) y la composición (círculos, arcos, líneas, ondas o triángulos) se elige de forma determinista a partir del slug, así que cada ensayo tiene siempre la misma imagen aunque se regenere el sitio. Aparecen como cabecera a ancho completo en cada ensayo, como miniatura en las tarjetas de los listados, y como miniatura pequeña en los resultados de búsqueda.
+Cada ensayo tiene una ilustración propia (`src/images/hero/<slug>.svg`), generada por `scripts/generate-hero-art.js`: una escena distinta por escuela filosófica (columnas estoicas, montañas taoístas, ensō zen, la puerta de Sartre, la roca de Sísifo, la balanza escéptica...), con degradados, capas de profundidad y grano. El color sale del `tema` del ensayo (`temasMeta.js`) y los detalles (día o noche, posición del sol, niebla) se deciden de forma determinista a partir del slug, así que cada ensayo tiene siempre la misma imagen.
 
-Para un ensayo nuevo escrito a mano (ver "Añadir el ensayo diario" más abajo), genera su imagen con:
+Tras añadir un ensayo nuevo:
 
 ```bash
-node scripts/generate-hero-images.js
+node scripts/generate-hero-art.js    # ilustraciones SVG
+node scripts/generate-og-images.js   # PNG para redes sociales
 ```
 
-(el script procesa `articles.json`, así que para un ensayo que no viene de ese archivo basta con copiar el patrón de cualquier `.svg` existente y cambiar el `slug` en el nombre del archivo, o llamar a la función `generateSvg(slug, color)` del script a mano).
+Si el ensayo usa una escuela nueva, añade su escena en el objeto `scenes` del script (si no, usa la de estoicismo).
 
 ## Imágenes para redes sociales (Open Graph)
 

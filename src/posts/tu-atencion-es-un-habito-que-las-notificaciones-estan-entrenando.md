@@ -1,6 +1,6 @@
 ---
 title: "Tu atención es un hábito que las notificaciones están entrenando"
-date: 2026-09-07
+date: 2026-07-30
 tema: "ansiedad digital"
 escuela: "ética de la virtud"
 excerpt: "Empiezas una tarea que requiere concentración y a los cuatro minutos ya has mirado el móvil sin que sonara nada. No es que hayas decidido"

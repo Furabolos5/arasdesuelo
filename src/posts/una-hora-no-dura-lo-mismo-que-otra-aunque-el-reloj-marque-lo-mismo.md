@@ -1,6 +1,6 @@
 ---
 title: "Una hora no dura lo mismo que otra, aunque el reloj marque lo mismo"
-date: 2026-09-08
+date: 2026-08-27
 tema: "tiempo y mortalidad"
 escuela: "fenomenología"
 excerpt: "Una hora esperando resultados médicos no dura lo mismo que una hora de conversación con alguien que te importa, aunque el reloj marque exactamente"

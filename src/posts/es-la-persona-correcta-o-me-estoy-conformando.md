@@ -1,6 +1,6 @@
 ---
 title: "¿Es la persona correcta, o me estoy conformando?"
-date: 2026-09-07
+date: 2026-08-07
 tema: "amor y citas"
 escuela: "escepticismo"
 excerpt: "Llevas un año con alguien, las cosas van razonablemente bien, y aun así hay noches en las que la pregunta vuelve: ¿es esta la persona correcta,"

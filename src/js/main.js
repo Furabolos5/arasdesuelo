@@ -156,3 +156,38 @@
     });
   }
 })();
+
+/* ---------- Indice del ensayo y boton de copiar enlace ---------- */
+(function () {
+  "use strict";
+  var body = document.getElementById("post-body");
+  var toc = document.getElementById("toc");
+  var list = document.getElementById("toc-list");
+  if (body && toc && list) {
+    var heads = body.querySelectorAll("h2");
+    if (heads.length >= 3) {
+      heads.forEach(function (h, i) {
+        if (!h.id) h.id = "s" + (i + 1);
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.href = "#" + h.id;
+        a.textContent = h.textContent;
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+      toc.hidden = false;
+    }
+  }
+  var copy = document.getElementById("copy-link");
+  if (copy) {
+    copy.addEventListener("click", function () {
+      var url = copy.closest(".share").getAttribute("data-url");
+      var done = function () {
+        copy.textContent = "¡Copiado!";
+        setTimeout(function () { copy.textContent = "Copiar enlace"; }, 1800);
+      };
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, done);
+      else done();
+    });
+  }
+})();

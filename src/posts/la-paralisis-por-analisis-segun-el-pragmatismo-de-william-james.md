@@ -1,6 +1,6 @@
 ---
 title: "La parálisis por análisis según el pragmatismo de William James"
-date: 2026-09-07
+date: 2026-08-31
 tema: "decisiones y dudas"
 escuela: "pragmatismo de William James"
 excerpt: "Tienes dos ofertas de piso, una hoja de cálculo con siete criterios ponderados y tres pestañas abiertas comparando barrios. Llevas nueve días"

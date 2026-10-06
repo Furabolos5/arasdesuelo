@@ -1,6 +1,6 @@
 ---
 title: "Cuánto dinero es suficiente, según los tres cajones de Epicuro"
-date: 2026-09-07
+date: 2026-05-27
 tema: "dinero y ambición"
 escuela: "epicureísmo"
 excerpt: "Te suben el sueldo un 12%. Durante quince días te sientes distinto: más ligero, más generoso contigo mismo. A la tercera semana vuelves a"

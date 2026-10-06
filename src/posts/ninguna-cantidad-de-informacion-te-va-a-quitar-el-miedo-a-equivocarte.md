@@ -1,6 +1,6 @@
 ---
 title: "Ninguna cantidad de información te va a quitar el miedo a equivocarte"
-date: 2026-09-07
+date: 2026-07-06
 tema: "decisiones y dudas"
 escuela: "escepticismo"
 excerpt: "Tienes dos ofertas de trabajo, o dos ciudades, o dos maneras de resolver un problema en el equipo. Has hecho la lista de pros y contras tres"

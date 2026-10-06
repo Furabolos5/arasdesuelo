@@ -1,6 +1,6 @@
 ---
 title: "El burnout laboral no se cura descansando el fin de semana"
-date: 2026-09-07
+date: 2026-06-28
 tema: "agotamiento y trabajo"
 escuela: "estoicismo"
 excerpt: "Es domingo por la tarde. Has dormido nueve horas, has salido a andar, no tienes nada urgente pendiente. Y aun así, pensar en abrir el"

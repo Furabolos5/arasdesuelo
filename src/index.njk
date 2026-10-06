@@ -8,6 +8,11 @@ description: null
     <p class="hero__kicker">{{ site.tagline }}</p>
     <h1 class="hero__title">Filosofía que resuelve, no que decora.</h1>
     <p class="hero__lede">{{ site.description }}</p>
+    <div class="chips">
+      {% for escuela, posts in collections.escuelas %}
+      <a class="chip" href="{{ ('/escuelas/' + (escuela | slugify) + '/') | url }}">{{ escuelasMeta[escuela].etiqueta }}</a>
+      {% endfor %}
+    </div>
   </div>
 </section>
 

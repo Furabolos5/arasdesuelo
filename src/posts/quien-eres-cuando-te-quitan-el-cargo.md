@@ -1,6 +1,6 @@
 ---
 title: "Quién eres cuando te quitan el cargo"
-date: 2026-09-07
+date: 2026-09-12
 tema: "identidad y propósito"
 escuela: "fenomenología"
 excerpt: "Alguien te pregunta en una cena qué haces, y respondes con un cargo: «soy directora de», «trabajo en». Es automático. Pero prueba a imaginar"

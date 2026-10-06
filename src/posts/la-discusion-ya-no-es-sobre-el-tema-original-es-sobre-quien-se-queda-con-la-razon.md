@@ -1,6 +1,6 @@
 ---
 title: "La discusion ya no es sobre el tema original, es sobre quien se queda con la razon"
-date: 2026-09-08
+date: 2026-05-23
 tema: "ira y conflicto"
 escuela: "escepticismo"
 excerpt: "La discusión ya no es sobre el tema original. Es sobre quién se equivocó primero, quién dijo qué y con qué tono, quién tiene que ceder para que"

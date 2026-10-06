@@ -9,6 +9,7 @@ layout: layouts/base.njk
 
   <div class="wrap wrap--narrow">
     <header class="post__header">
+      <nav class="breadcrumb" aria-label="Migas de pan"><a href="{{ '/' | url }}">Inicio</a><span>/</span><a href="{{ '/ensayos/' | url }}">Ensayos</a></nav>
       <div class="post__meta">
         <a href="{{ ('/temas/' + (tema | slugify) + '/') | url }}" class="post__tema-tag">{{ temasMeta[tema].etiqueta }}</a>
         <span class="post__dot">·</span>
@@ -24,9 +25,30 @@ layout: layouts/base.njk
 
     {% include "partials/ad-banner.njk" %}
 
-    <div class="post__body">
+    <nav class="toc" id="toc" aria-label="En este ensayo" hidden>
+      <p class="toc__title">En este ensayo</p>
+      <ol class="toc__list" id="toc-list"></ol>
+    </nav>
+
+    <div class="post__body" id="post-body">
       {{ content | safe }}
     </div>
+
+    <div class="share" data-title="{{ title | escape }}" data-url="{{ site.url }}{{ page.url }}">
+      <span class="share__label">Compartir</span>
+      <a class="share__btn" data-share="whatsapp" href="https://wa.me/?text={{ (title + ' ' + site.url + page.url) | urlencode }}" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="share__btn" data-share="x" href="https://twitter.com/intent/tweet?text={{ title | urlencode }}&url={{ (site.url + page.url) | urlencode }}" target="_blank" rel="noopener">X</a>
+      <a class="share__btn" data-share="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ (site.url + page.url) | urlencode }}" target="_blank" rel="noopener">Facebook</a>
+      <button class="share__btn" type="button" id="copy-link">Copiar enlace</button>
+    </div>
+
+    <aside class="author-box">
+      <span class="author-box__mark" aria-hidden="true">A</span>
+      <div>
+        <p class="author-box__name">A ras de suelo</p>
+        <p class="author-box__text">Filosofía aplicada a problemas de hoy: un ensayo breve, una escuela de pensamiento y algo concreto que hacer el lunes por la mañana. <a href="{{ '/sobre/' | url }}">Más sobre el proyecto</a>.</p>
+      </div>
+    </aside>
   </div>
 
   {% set relacionados = collections.ensayos | relacionados(tema, escuela, page.inputPath, 3) %}

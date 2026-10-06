@@ -1,6 +1,6 @@
 ---
 title: "Cambiar de opinión no significa que la versión anterior de ti fuera falsa"
-date: 2026-09-07
+date: 2026-09-16
 tema: "identidad y propósito"
 escuela: "pragmatismo de William James"
 excerpt: "Alguien te dice, medio en broma, que has cambiado mucho desde que os conocisteis. Lo dice como observación, pero tú lo escuchas como acusación."

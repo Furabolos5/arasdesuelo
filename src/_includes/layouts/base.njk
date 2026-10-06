@@ -54,6 +54,7 @@
       <nav class="site-header__nav">
         <a href="{{ '/ensayos/' | url }}">Ensayos</a>
         <a href="{{ '/temas/' | url }}">Temas</a>
+        <a href="{{ '/sobre/' | url }}">Sobre</a>
         <button type="button" class="search-trigger" id="search-trigger" aria-haspopup="dialog">Buscar</button>
       </nav>
     </div>
@@ -72,10 +73,24 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap site-footer__inner">
-      <p>{{ site.title }} — {{ site.tagline }}.</p>
-      <p class="site-footer__fine">Un ensayo nuevo, sin ruido. Sin academicismo. <a href="{{ '/privacidad/' | url }}">Privacidad y cookies</a>.</p>
+    <div class="wrap site-footer__grid">
+      <div>
+        <p class="site-footer__brand">{{ site.title }}</p>
+        <p class="site-footer__tag">{{ site.tagline }}. Un ensayo breve, sin academicismo y sin ruido.</p>
+      </div>
+      <nav class="site-footer__col" aria-label="Explorar">
+        <p class="site-footer__head">Explorar</p>
+        <a href="{{ '/ensayos/' | url }}">Todos los ensayos</a>
+        <a href="{{ '/temas/' | url }}">Por problema</a>
+        <a href="{{ '/feed.xml' | url }}">RSS</a>
+      </nav>
+      <nav class="site-footer__col" aria-label="Proyecto">
+        <p class="site-footer__head">Proyecto</p>
+        <a href="{{ '/sobre/' | url }}">Sobre el sitio</a>
+        <a href="{{ '/privacidad/' | url }}">Privacidad y cookies</a>
+      </nav>
     </div>
+    <div class="wrap site-footer__bottom">© 2026 {{ site.title }}</div>
   </footer>
 
   {% include "partials/ad-corner.njk" %}

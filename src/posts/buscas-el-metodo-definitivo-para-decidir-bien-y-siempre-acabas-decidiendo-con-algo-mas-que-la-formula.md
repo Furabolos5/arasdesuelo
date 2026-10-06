@@ -1,6 +1,6 @@
 ---
 title: "Buscas el metodo definitivo para decidir bien y siempre acabas decidiendo con algo mas que la formula"
-date: 2026-09-08
+date: 2026-07-26
 tema: "decisiones y dudas"
 escuela: "ética de la virtud"
 excerpt: "Buscas el método definitivo para decidir bien: una matriz, un criterio, una regla que se pueda aplicar a cualquier situación y que garantice el"

@@ -1,6 +1,6 @@
 ---
 title: "¿Ya lo has superado? Esa pregunta presupone algo que el duelo no tiene"
-date: 2026-09-07
+date: 2026-06-20
 tema: "pérdida y duelo"
 escuela: "pragmatismo de William James"
 excerpt: "Alguien te pregunta, meses después de una pérdida importante, si ya lo has superado. La pregunta incomoda porque no tiene una respuesta limpia."

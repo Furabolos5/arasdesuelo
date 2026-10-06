@@ -1,6 +1,6 @@
 ---
 title: "Falta de tiempo: lo que responde Séneca desde Roma"
-date: 2026-09-07
+date: 2026-10-06
 tema: "tiempo y mortalidad"
 escuela: "estoicismo"
 excerpt: "Miras el informe semanal del móvil: tres horas diarias de pantalla, la mayoría en aplicaciones que ni recuerdas haber abierto. Y aun así,"

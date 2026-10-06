@@ -1,6 +1,6 @@
 ---
 title: "El ghosting no es sobre ti, es sobre lo fácil que es desaparecer"
-date: 2026-09-07
+date: 2026-08-23
 tema: "amor y citas"
 escuela: "nihilismo"
 excerpt: "Llevabas tres semanas hablando todos los días. Planes concretos, una cita que salió bien, mensajes por la mañana. Y de golpe, silencio. Sin"

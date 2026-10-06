@@ -1,6 +1,6 @@
 ---
 title: "El doomscrolling es una respuesta lógica a un mundo absurdo"
-date: 2026-09-07
+date: 2026-09-24
 tema: "ansiedad digital"
 escuela: "absurdismo"
 excerpt: "Son las dos de la madrugada y sigues bajando. Una guerra, una catástrofe, un titular sobre la economía que no entiendes del todo pero que te"

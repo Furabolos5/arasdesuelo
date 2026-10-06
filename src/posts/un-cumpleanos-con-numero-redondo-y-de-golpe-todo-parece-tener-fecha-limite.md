@@ -1,6 +1,6 @@
 ---
 title: "Un cumpleaños con número redondo y de golpe todo parece tener fecha límite"
-date: 2026-09-07
+date: 2026-09-08
 tema: "tiempo y mortalidad"
 escuela: "absurdismo"
 excerpt: "Un cumpleaños con un número redondo y de golpe todo parece tener fecha límite: el trabajo que no has cambiado, la relación que no has formado,"

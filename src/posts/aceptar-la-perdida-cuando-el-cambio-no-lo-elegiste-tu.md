@@ -1,6 +1,6 @@
 ---
 title: "Aceptar la pérdida cuando el cambio no lo elegiste tú"
-date: 2026-09-07
+date: 2026-07-02
 tema: "pérdida y duelo"
 escuela: "taoísmo"
 excerpt: "Aceptar la pérdida suena, cuando alguien te lo dice, a consejo barato. Han pasado tres semanas desde que tu pareja se fue, y sigues abriendo"

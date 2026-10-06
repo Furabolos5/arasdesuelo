@@ -1,6 +1,6 @@
 ---
 title: "A cierta edad se supone que ya deberias tenerlo todo resuelto, y esa lista nadie la firmo"
-date: 2026-09-08
+date: 2026-07-14
 tema: "tiempo y mortalidad"
 escuela: "cinismo griego"
 excerpt: "A cierta edad se supone que ya deberías tener casa propia, pareja estable, un puesto consolidado, quizás hijos si ese es tu plan. La lista varía"

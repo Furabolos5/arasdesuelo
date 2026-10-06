@@ -1,6 +1,6 @@
 ---
 title: "Hacer amigos de adulto: qué dice Aristóteles al respecto"
-date: 2026-09-07
+date: 2026-06-04
 tema: "soledad y vínculos"
 escuela: "ética de la virtud"
 excerpt: "Es la tercera vez este año que quedas con alguien «para poneros al día» y la conversación se queda en el trabajo y en los hijos de los demás."

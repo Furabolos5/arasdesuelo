@@ -1,6 +1,6 @@
 ---
 title: "Ganas más que hace dos años, pero la sensación de estrechez no ha bajado igual"
-date: 2026-09-07
+date: 2026-05-31
 tema: "dinero y ambición"
 escuela: "fenomenología"
 excerpt: "Miras el saldo de la cuenta y, aunque cubre lo que necesitas este mes, aparece el mismo nudo de siempre. Ganas más que hace dos años. La"

@@ -1,6 +1,6 @@
 ---
 title: "Llevas semanas rodeado de gente y aun asi sientes un cansancio de fondo que no se cura con mas planes"
-date: 2026-09-08
+date: 2026-08-15
 tema: "soledad y vínculos"
 escuela: "budismo zen"
 excerpt: "Llevas semanas rodeado de gente —trabajo, planes, mensajes que no paran— y en vez de sentirte acompañado, sientes un cansancio raro, como de"

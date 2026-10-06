@@ -1,6 +1,6 @@
 ---
 title: "El mismo sábado sin planes puede ser alivio o puede ser un peso"
-date: 2026-09-07
+date: 2026-09-04
 tema: "soledad y vínculos"
 escuela: "epicureísmo"
 excerpt: "Un sábado por la tarde sin planes puede ser dos cosas completamente distintas. Puede ser un alivio: por fin nadie te reclama nada, silencio"
