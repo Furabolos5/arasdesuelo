@@ -4,6 +4,8 @@ date: 2026-08-19
 tema: "identidad y propósito"
 escuela: "existencialismo de Sartre"
 excerpt: "Llevas dos años arrastrando una crisis vocacional con la misma frase: «todavía no he encontrado lo mío». Has hecho un test vocacional, dos"
+seoTitle: "Crisis vocacional: la respuesta de Sartre"
+description: "Por qué buscar tu vocación como algo que ya existe puede ser el error, según Sartre, y cómo plantear la pregunta de otro modo."
 heroImage: "/images/hero/crisis-vocacional-por-que-sartre-diria-que-buscas-mal.svg"
 permalink: "/ensayos/crisis-vocacional-por-que-sartre-diria-que-buscas-mal/"
 layout: layouts/post.njk

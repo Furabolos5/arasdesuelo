@@ -4,6 +4,8 @@ date: 2026-07-22
 tema: "ira y conflicto"
 escuela: "estoicismo"
 excerpt: "Respondes a un comentario que te ha parecido injusto. Escribes rápido, borras, reescribes con más filo. Tres respuestas después llevas veinte"
+seoTitle: "Discutir con desconocidos en internet: la vía estoica"
+description: "Gritarle a un desconocido no te dará la razón. Qué propone el estoicismo para no gastar energía en discusiones que no controlas."
 heroImage: "/images/hero/gritarle-a-un-desconocido-en-internet-no-te-va-a-dar-la-razon.svg"
 permalink: "/ensayos/gritarle-a-un-desconocido-en-internet-no-te-va-a-dar-la-razon/"
 layout: layouts/post.njk

@@ -4,6 +4,8 @@ date: 2026-09-04
 tema: "soledad y vínculos"
 escuela: "epicureísmo"
 excerpt: "Un sábado por la tarde sin planes puede ser dos cosas completamente distintas. Puede ser un alivio: por fin nadie te reclama nada, silencio"
+seoTitle: "Sábado sin planes: ¿descanso o soledad? Epicuro"
+description: "Cómo distinguir, con ayuda de Epicuro, si un sábado sin planes es descanso o soledad, y qué hacer en cada caso."
 heroImage: "/images/hero/el-mismo-sabado-sin-planes-puede-ser-alivio-o-puede-ser-un-peso.svg"
 permalink: "/ensayos/el-mismo-sabado-sin-planes-puede-ser-alivio-o-puede-ser-un-peso/"
 layout: layouts/post.njk

@@ -4,6 +4,8 @@ date: 2026-04-25
 tema: "ira y conflicto"
 escuela: "estoicismo"
 excerpt: "Alguien se te cierra en la rotonda y en dos segundos estás gritando a un parabrisas. Parece un reflejo, como retirar la mano del fuego. Epicteto sostenía que entre lo que pasa y tu rabia hay un paso que casi nunca ves"
+seoTitle: "Cómo controlar la ira: Epicteto y el tráfico"
+description: "La ira no es un reflejo sino un juicio. Qué enseñan Epicteto y Séneca para enfadarte menos y cuándo la indignación sí tiene sentido."
 heroImage: "/images/hero/epicteto-y-el-trafico-la-ira-es-un-juicio-no-un-reflejo.svg"
 permalink: "/ensayos/epicteto-y-el-trafico-la-ira-es-un-juicio-no-un-reflejo/"
 layout: layouts/post.njk

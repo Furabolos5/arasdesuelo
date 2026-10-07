@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if title %}{{ title }} — {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}</title>
+  {% set pageTitleCore = seoTitle or title %}
+  {% set pageTitleFull = (pageTitleCore ~ ' — ' ~ site.title) if pageTitleCore else (site.title ~ ' — ' ~ site.tagline) %}
+  <title>{% if pageTitleCore and pageTitleFull.length > 66 %}{{ pageTitleCore }}{% else %}{{ pageTitleFull }}{% endif %}</title>
   <meta name="description" content="{{ description or site.description }}">
   <link rel="canonical" href="{{ site.url ~ page.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | url }}">
   {% if site.googleVerification %}<meta name="google-site-verification" content="{{ site.googleVerification }}">{% endif %}
   {% set pageUrl = site.url ~ page.url %}
   {% set pageDesc = description or excerpt or site.description %}
-  {% set pageImg = (site.url ~ (heroImage | replace('/hero/', '/og/') | replace('.svg', '.png'))) if heroImage else '' %}
+  {% set pageImg = (site.url ~ (heroImage | replace('/hero/', '/og/') | replace('.svg', '.jpg'))) if heroImage else '' %}
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:locale" content="es_ES">
   <meta property="og:type" content="{% if heroImage %}article{% else %}website{% endif %}">
@@ -35,7 +37,28 @@
     "publisher": { "@type": "Organization", "name": site.title }
   } | dump | safe }}</script>
   {% endif %}
-  <link rel="icon" href="data:,">
+  {% if page.url == '/' %}
+  <script type="application/ld+json">{{ {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": site.title,
+    "url": site.url ~ "/",
+    "inLanguage": site.lang,
+    "description": site.description
+  } | dump | safe }}</script>
+  {% endif %}
+  {% if heroImage %}
+  <script type="application/ld+json">{{ {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": site.url ~ "/" },
+      { "@type": "ListItem", "position": 2, "name": "Ensayos", "item": site.url ~ "/ensayos/" },
+      { "@type": "ListItem", "position": 3, "name": title, "item": pageUrl }
+    ]
+  } | dump | safe }}</script>
+  {% endif %}
+  <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">

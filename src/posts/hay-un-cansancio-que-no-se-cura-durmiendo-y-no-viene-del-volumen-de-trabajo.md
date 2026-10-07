@@ -4,6 +4,8 @@ date: 2026-05-19
 tema: "agotamiento y trabajo"
 escuela: "existencialismo de Sartre"
 excerpt: "Hay semanas de mucho trabajo que dejan cansancio limpio, el que se cura durmiendo. Y hay semanas de trabajo moderado que dejan otro tipo de"
+seoTitle: "Cansancio que no se cura durmiendo: la mirada de Sartre"
+description: "Hay un cansancio que el sueño no repara y que no depende del volumen de trabajo. Una lectura existencialista para entender de dónde viene."
 heroImage: "/images/hero/hay-un-cansancio-que-no-se-cura-durmiendo-y-no-viene-del-volumen-de-trabajo.svg"
 permalink: "/ensayos/hay-un-cansancio-que-no-se-cura-durmiendo-y-no-viene-del-volumen-de-trabajo/"
 layout: layouts/post.njk

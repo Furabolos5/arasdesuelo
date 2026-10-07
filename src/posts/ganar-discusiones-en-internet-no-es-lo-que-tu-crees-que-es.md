@@ -4,6 +4,8 @@ date: 2026-06-24
 tema: "ira y conflicto"
 escuela: "budismo zen"
 excerpt: "Son las once de la noche. Alguien ha escrito un comentario equivocado sobre algo que te importa, con la seguridad de quien nunca se ha"
+seoTitle: "Ganar discusiones en internet: qué dice el zen"
+description: "Qué buscas realmente cuando intentas ganar una discusión en internet. Una lectura desde el budismo zen y formas de salir del bucle."
 heroImage: "/images/hero/ganar-discusiones-en-internet-no-es-lo-que-tu-crees-que-es.svg"
 permalink: "/ensayos/ganar-discusiones-en-internet-no-es-lo-que-tu-crees-que-es/"
 layout: layouts/post.njk

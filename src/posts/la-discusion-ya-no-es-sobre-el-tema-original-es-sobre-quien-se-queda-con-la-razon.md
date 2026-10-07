@@ -4,6 +4,8 @@ date: 2026-05-23
 tema: "ira y conflicto"
 escuela: "escepticismo"
 excerpt: "La discusión ya no es sobre el tema original. Es sobre quién se equivocó primero, quién dijo qué y con qué tono, quién tiene que ceder para que"
+seoTitle: "Cuando la discusión ya no va del tema: escepticismo"
+description: "Cuando la discusión ya no va del tema original sino de quién se queda con la razón. Una salida desde el escepticismo filosófico."
 heroImage: "/images/hero/la-discusion-ya-no-es-sobre-el-tema-original-es-sobre-quien-se-queda-con-la-razon.svg"
 permalink: "/ensayos/la-discusion-ya-no-es-sobre-el-tema-original-es-sobre-quien-se-queda-con-la-razon/"
 layout: layouts/post.njk

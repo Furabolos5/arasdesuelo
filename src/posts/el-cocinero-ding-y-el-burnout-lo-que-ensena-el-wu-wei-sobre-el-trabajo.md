@@ -4,6 +4,8 @@ date: 2026-05-11
 tema: "agotamiento y trabajo"
 escuela: "taoísmo"
 excerpt: "Trabajas más horas que nunca y cada tarea te cuesta más que la anterior. Empujas con todo el cuerpo contra algo que no cede, y la factura llega en forma de cansancio que el fin de semana no arregla"
+seoTitle: "Burnout y wu wei: lo que enseña el cocinero Ding"
+description: "El cuento del cocinero Ding explica la diferencia entre esforzarse y forzar. Qué dice el wu wei taoísta sobre el agotamiento laboral."
 heroImage: "/images/hero/el-cocinero-ding-y-el-burnout-lo-que-ensena-el-wu-wei-sobre-el-trabajo.svg"
 permalink: "/ensayos/el-cocinero-ding-y-el-burnout-lo-que-ensena-el-wu-wei-sobre-el-trabajo/"
 layout: layouts/post.njk

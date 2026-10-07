@@ -4,6 +4,8 @@ date: 2026-07-06
 tema: "decisiones y dudas"
 escuela: "escepticismo"
 excerpt: "Tienes dos ofertas de trabajo, o dos ciudades, o dos maneras de resolver un problema en el equipo. Has hecho la lista de pros y contras tres"
+seoTitle: "Miedo a equivocarte: por qué más información no basta"
+description: "Más información no elimina el miedo a equivocarte. Qué aporta el escepticismo para decidir sin certeza."
 heroImage: "/images/hero/ninguna-cantidad-de-informacion-te-va-a-quitar-el-miedo-a-equivocarte.svg"
 permalink: "/ensayos/ninguna-cantidad-de-informacion-te-va-a-quitar-el-miedo-a-equivocarte/"
 layout: layouts/post.njk

@@ -4,6 +4,8 @@ date: 2026-09-24
 tema: "ansiedad digital"
 escuela: "absurdismo"
 excerpt: "Son las dos de la madrugada y sigues bajando. Una guerra, una catástrofe, un titular sobre la economía que no entiendes del todo pero que te"
+seoTitle: "Doomscrolling: por qué es lógico y qué hacer"
+description: "Seguir leyendo malas noticias sin parar tiene su lógica. Una lectura desde el absurdismo y ideas para cortar el hábito."
 heroImage: "/images/hero/el-doomscrolling-es-una-respuesta-logica-a-un-mundo-absurdo.svg"
 permalink: "/ensayos/el-doomscrolling-es-una-respuesta-logica-a-un-mundo-absurdo/"
 layout: layouts/post.njk

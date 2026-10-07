@@ -4,6 +4,8 @@ date: 2026-08-27
 tema: "tiempo y mortalidad"
 escuela: "fenomenología"
 excerpt: "Una hora esperando resultados médicos no dura lo mismo que una hora de conversación con alguien que te importa, aunque el reloj marque exactamente"
+seoTitle: "Por qué el tiempo pasa distinto: la fenomenología"
+description: "Una hora no dura lo mismo que otra aunque el reloj marque igual. La fenomenología del tiempo vivido explica por qué."
 heroImage: "/images/hero/una-hora-no-dura-lo-mismo-que-otra-aunque-el-reloj-marque-lo-mismo.svg"
 permalink: "/ensayos/una-hora-no-dura-lo-mismo-que-otra-aunque-el-reloj-marque-lo-mismo/"
 layout: layouts/post.njk

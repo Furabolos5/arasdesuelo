@@ -4,6 +4,8 @@ date: 2026-06-12
 tema: "agotamiento y trabajo"
 escuela: "absurdismo"
 excerpt: "Terminas la bandeja de entrada un viernes y el lunes vuelve a estar llena. Cierras un ciclo de producción y el siguiente ya está en cola antes de que"
+seoTitle: "Trabajo sin línea de meta: la mirada del absurdismo"
+description: "Cuando el trabajo es un ciclo que se repite, esperar una línea de meta es lo que duele. Una lectura desde el absurdismo de Camus."
 heroImage: "/images/hero/el-ciclo-no-tiene-linea-de-meta-y-esperar-una-es-la-parte-que-duele.svg"
 permalink: "/ensayos/el-ciclo-no-tiene-linea-de-meta-y-esperar-una-es-la-parte-que-duele/"
 layout: layouts/post.njk

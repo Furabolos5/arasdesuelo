@@ -4,6 +4,8 @@ date: 2026-06-28
 tema: "agotamiento y trabajo"
 escuela: "estoicismo"
 excerpt: "Es domingo por la tarde. Has dormido nueve horas, has salido a andar, no tienes nada urgente pendiente. Y aun así, pensar en abrir el"
+seoTitle: "Burnout laboral: por qué el fin de semana no lo cura"
+description: "El burnout no se arregla con dos días de descanso. Qué lo diferencia del cansancio normal y qué aporta el estoicismo para afrontarlo."
 heroImage: "/images/hero/el-burnout-laboral-no-se-cura-descansando-el-fin-de-semana.svg"
 permalink: "/ensayos/el-burnout-laboral-no-se-cura-descansando-el-fin-de-semana/"
 layout: layouts/post.njk

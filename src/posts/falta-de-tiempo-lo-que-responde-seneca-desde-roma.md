@@ -4,6 +4,8 @@ date: 2026-10-06
 tema: "tiempo y mortalidad"
 escuela: "estoicismo"
 excerpt: "Miras el informe semanal del móvil: tres horas diarias de pantalla, la mayoría en aplicaciones que ni recuerdas haber abierto. Y aun así,"
+seoTitle: "Falta de tiempo: la respuesta de Séneca"
+description: "¿De verdad te falta tiempo? Lo que responde Séneca sobre la brevedad de la vida y cómo repasar en qué lo estás gastando."
 heroImage: "/images/hero/falta-de-tiempo-lo-que-responde-seneca-desde-roma.svg"
 permalink: "/ensayos/falta-de-tiempo-lo-que-responde-seneca-desde-roma/"
 layout: layouts/post.njk

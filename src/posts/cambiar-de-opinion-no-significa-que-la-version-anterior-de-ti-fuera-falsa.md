@@ -4,6 +4,8 @@ date: 2026-09-16
 tema: "identidad y propósito"
 escuela: "pragmatismo de William James"
 excerpt: "Alguien te dice, medio en broma, que has cambiado mucho desde que os conocisteis. Lo dice como observación, pero tú lo escuchas como acusación."
+seoTitle: "Cambiar de opinión sin traicionarte: William James"
+description: "Cambiar de opinión no vuelve falsa tu versión anterior. Una lectura desde el pragmatismo de William James sobre identidad y coherencia."
 heroImage: "/images/hero/cambiar-de-opinion-no-significa-que-la-version-anterior-de-ti-fuera-falsa.svg"
 permalink: "/ensayos/cambiar-de-opinion-no-significa-que-la-version-anterior-de-ti-fuera-falsa/"
 layout: layouts/post.njk

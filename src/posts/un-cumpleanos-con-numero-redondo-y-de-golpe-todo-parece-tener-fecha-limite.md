@@ -4,6 +4,8 @@ date: 2026-09-08
 tema: "tiempo y mortalidad"
 escuela: "absurdismo"
 excerpt: "Un cumpleaños con un número redondo y de golpe todo parece tener fecha límite: el trabajo que no has cambiado, la relación que no has formado,"
+seoTitle: "Cumpleaños redondo: por qué todo parece tener fecha límite"
+description: "Un cumpleaños con número redondo y de golpe todo parece tener fecha límite. Una lectura desde el absurdismo sobre el tiempo y los balances."
 heroImage: "/images/hero/un-cumpleanos-con-numero-redondo-y-de-golpe-todo-parece-tener-fecha-limite.svg"
 permalink: "/ensayos/un-cumpleanos-con-numero-redondo-y-de-golpe-todo-parece-tener-fecha-limite/"
 layout: layouts/post.njk

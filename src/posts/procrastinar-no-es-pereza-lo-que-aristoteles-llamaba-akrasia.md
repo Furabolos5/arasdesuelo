@@ -4,6 +4,8 @@ date: 2026-05-15
 tema: "decisiones y dudas"
 escuela: "ética de la virtud"
 excerpt: "Sabes exactamente qué tienes que hacer, tienes tiempo y nadie te lo impide. Aun así abres otra pestaña, ordenas el escritorio, miras el móvil. No es que no sepas qué hacer"
+seoTitle: "Procrastinar no es pereza: la akrasia de Aristóteles"
+description: "Procrastinar es hacer lo contrario de lo que juzgas mejor. Qué decía Aristóteles de la akrasia y pasos concretos para romper el hábito."
 heroImage: "/images/hero/procrastinar-no-es-pereza-lo-que-aristoteles-llamaba-akrasia.svg"
 permalink: "/ensayos/procrastinar-no-es-pereza-lo-que-aristoteles-llamaba-akrasia/"
 layout: layouts/post.njk

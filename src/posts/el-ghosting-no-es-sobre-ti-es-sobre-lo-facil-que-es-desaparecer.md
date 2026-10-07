@@ -4,6 +4,8 @@ date: 2026-08-23
 tema: "amor y citas"
 escuela: "nihilismo"
 excerpt: "Llevabas tres semanas hablando todos los días. Planes concretos, una cita que salió bien, mensajes por la mañana. Y de golpe, silencio. Sin"
+seoTitle: "Ghosting: por qué no va sobre ti (nihilismo)"
+description: "El ghosting dice más de lo fácil que es desaparecer que de tu valor. Una lectura desde el nihilismo y qué hacer si te ha pasado."
 heroImage: "/images/hero/el-ghosting-no-es-sobre-ti-es-sobre-lo-facil-que-es-desaparecer.svg"
 permalink: "/ensayos/el-ghosting-no-es-sobre-ti-es-sobre-lo-facil-que-es-desaparecer/"
 layout: layouts/post.njk

@@ -4,6 +4,8 @@ date: 2026-06-16
 tema: "ira y conflicto"
 escuela: "nihilismo"
 excerpt: "Abres el móvil, ves un titular, y la indignación llega antes de terminar de leer la primera línea. Compartes, comentas, discutes en un hilo con"
+seoTitle: "Indignación con las noticias: qué hacer si nada cambia"
+description: "Te indignas con las noticias y nada cambia. Una mirada nihilista a esa indignación y cómo convertirla en algo útil."
 heroImage: "/images/hero/la-indignacion-con-las-noticias-que-no-cambia-nada-sigue-siendo-indignacion.svg"
 permalink: "/ensayos/la-indignacion-con-las-noticias-que-no-cambia-nada-sigue-siendo-indignacion/"
 layout: layouts/post.njk

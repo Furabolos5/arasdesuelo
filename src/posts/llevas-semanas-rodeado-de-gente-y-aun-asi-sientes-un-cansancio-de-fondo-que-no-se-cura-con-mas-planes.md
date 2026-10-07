@@ -4,6 +4,8 @@ date: 2026-08-15
 tema: "soledad y vínculos"
 escuela: "budismo zen"
 excerpt: "Llevas semanas rodeado de gente —trabajo, planes, mensajes que no paran— y en vez de sentirte acompañado, sientes un cansancio raro, como de"
+seoTitle: "Cansancio de fondo estando rodeado de gente: el zen"
+description: "Rodeado de gente y aun así agotado: un cansancio que más planes no curan. Una lectura desde el budismo zen."
 heroImage: "/images/hero/llevas-semanas-rodeado-de-gente-y-aun-asi-sientes-un-cansancio-de-fondo-que-no-se-cura-con-mas-planes.svg"
 permalink: "/ensayos/llevas-semanas-rodeado-de-gente-y-aun-asi-sientes-un-cansancio-de-fondo-que-no-se-cura-con-mas-planes/"
 layout: layouts/post.njk

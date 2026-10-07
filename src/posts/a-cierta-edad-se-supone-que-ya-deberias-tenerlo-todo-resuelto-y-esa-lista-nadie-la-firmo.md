@@ -4,6 +4,8 @@ date: 2026-07-14
 tema: "tiempo y mortalidad"
 escuela: "cinismo griego"
 excerpt: "A cierta edad se supone que ya deberías tener casa propia, pareja estable, un puesto consolidado, quizás hijos si ese es tu plan. La lista varía"
+seoTitle: "Presión por «ir bien» a cierta edad: mirada cínica"
+description: "Casa, pareja, puesto estable: la lista de lo que «deberías tener» a tu edad nadie la firmó. Una lectura desde el cinismo griego y qué hacer con ella."
 heroImage: "/images/hero/a-cierta-edad-se-supone-que-ya-deberias-tenerlo-todo-resuelto-y-esa-lista-nadie-la-firmo.svg"
 permalink: "/ensayos/a-cierta-edad-se-supone-que-ya-deberias-tenerlo-todo-resuelto-y-esa-lista-nadie-la-firmo/"
 layout: layouts/post.njk

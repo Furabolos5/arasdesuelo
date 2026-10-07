@@ -4,6 +4,8 @@ date: 2026-09-28
 tema: "pérdida y duelo"
 escuela: "budismo zen"
 excerpt: "Hay una foto que sigues mirando aunque sabes que te va a doler. No porque hayas olvidado lo que pasó, sino porque una parte de ti sigue"
+seoTitle: "Duelo: pesa menos si dejas de exigir que nada cambie"
+description: "Una lectura budista del duelo: qué cambia cuando dejas de exigir que las cosas sigan como estaban y qué puedes hacer en la práctica."
 heroImage: "/images/hero/el-duelo-pesa-menos-cuando-dejas-de-exigir-que-las-cosas-sigan-igual.svg"
 permalink: "/ensayos/el-duelo-pesa-menos-cuando-dejas-de-exigir-que-las-cosas-sigan-igual/"
 layout: layouts/post.njk

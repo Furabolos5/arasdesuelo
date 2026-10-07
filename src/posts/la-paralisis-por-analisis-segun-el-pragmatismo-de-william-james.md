@@ -4,6 +4,8 @@ date: 2026-08-31
 tema: "decisiones y dudas"
 escuela: "pragmatismo de William James"
 excerpt: "Tienes dos ofertas de piso, una hoja de cálculo con siete criterios ponderados y tres pestañas abiertas comparando barrios. Llevas nueve días"
+seoTitle: "Parálisis por análisis: la solución de William James"
+description: "Cuando pensar demasiado te impide decidir: qué aporta el pragmatismo de William James para actuar con información imperfecta."
 heroImage: "/images/hero/la-paralisis-por-analisis-segun-el-pragmatismo-de-william-james.svg"
 permalink: "/ensayos/la-paralisis-por-analisis-segun-el-pragmatismo-de-william-james/"
 layout: layouts/post.njk

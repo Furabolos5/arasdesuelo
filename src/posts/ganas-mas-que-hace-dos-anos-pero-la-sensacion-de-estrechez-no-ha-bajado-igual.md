@@ -4,6 +4,8 @@ date: 2026-05-31
 tema: "dinero y ambición"
 escuela: "fenomenología"
 excerpt: "Miras el saldo de la cuenta y, aunque cubre lo que necesitas este mes, aparece el mismo nudo de siempre. Ganas más que hace dos años. La"
+seoTitle: "Ganas más, pero sigues con la sensación de estrechez"
+description: "Si tus ingresos suben y la sensación de estrechez no baja, el problema puede no ser la cifra. Una lectura fenomenológica del dinero."
 heroImage: "/images/hero/ganas-mas-que-hace-dos-anos-pero-la-sensacion-de-estrechez-no-ha-bajado-igual.svg"
 permalink: "/ensayos/ganas-mas-que-hace-dos-anos-pero-la-sensacion-de-estrechez-no-ha-bajado-igual/"
 layout: layouts/post.njk

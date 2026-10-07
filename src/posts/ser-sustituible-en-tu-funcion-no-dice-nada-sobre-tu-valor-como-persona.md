@@ -4,6 +4,8 @@ date: 2026-07-18
 tema: "soledad y vínculos"
 escuela: "nihilismo"
 excerpt: "Trabajas en una empresa de varios miles de personas, vives en una ciudad de varios millones, participas en comunidades online de decenas de miles"
+seoTitle: "Ser sustituible en el trabajo no resta valor personal"
+description: "Que seas sustituible en tu función no dice nada de tu valor como persona. Una lectura desde el nihilismo."
 heroImage: "/images/hero/ser-sustituible-en-tu-funcion-no-dice-nada-sobre-tu-valor-como-persona.svg"
 permalink: "/ensayos/ser-sustituible-en-tu-funcion-no-dice-nada-sobre-tu-valor-como-persona/"
 layout: layouts/post.njk

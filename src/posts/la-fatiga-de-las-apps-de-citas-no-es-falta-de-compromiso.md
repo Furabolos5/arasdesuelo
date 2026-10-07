@@ -4,6 +4,8 @@ date: 2026-08-03
 tema: "amor y citas"
 escuela: "existencialismo de Sartre"
 excerpt: "Son las once y media de la noche. Llevas cuarenta minutos deslizando perfiles en la cama, tienes cuatro coincidencias nuevas y no le has"
+seoTitle: "Fatiga de las apps de citas: no es falta de compromiso"
+description: "Si las apps de citas te agotan, quizá no sea falta de compromiso. Una lectura desde el existencialismo de Sartre."
 heroImage: "/images/hero/la-fatiga-de-las-apps-de-citas-no-es-falta-de-compromiso.svg"
 permalink: "/ensayos/la-fatiga-de-las-apps-de-citas-no-es-falta-de-compromiso/"
 layout: layouts/post.njk

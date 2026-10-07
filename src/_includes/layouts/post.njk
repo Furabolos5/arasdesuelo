@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 <article class="post" style="--tema-color: {{ temasMeta[tema].color }};">
   <div class="post__hero">
-    <img src="{{ heroImage | url }}" alt="" class="post__hero-img" width="1200" height="630" loading="eager">
+    <img src="{{ heroImage | url }}" alt="Ilustración de {{ escuelasMeta[escuela].etiqueta }}: {{ title | escape }}" class="post__hero-img" width="1200" height="630" loading="eager">
     <div class="post__hero-fade"></div>
   </div>
 
@@ -71,6 +71,7 @@ layout: layouts/base.njk
   </aside>
   {% endif %}
 
+  {% if site.giscus.repoId and site.giscus.repoId.indexOf('PON_AQUI') == -1 %}
   <div class="wrap wrap--narrow">
     <section class="comments" id="comentarios">
       <h2 class="comments__title">Comentarios</h2>
@@ -91,4 +92,5 @@ layout: layouts/base.njk
       </script>
     </section>
   </div>
+  {% endif %}
 </article>

@@ -4,6 +4,8 @@ date: 2026-09-12
 tema: "identidad y propósito"
 escuela: "fenomenología"
 excerpt: "Alguien te pregunta en una cena qué haces, y respondes con un cargo: «soy directora de», «trabajo en». Es automático. Pero prueba a imaginar"
+seoTitle: "¿Quién eres cuando te quitan el cargo?"
+description: "Perder el cargo o el empleo puede dejarte sin identidad. Una mirada fenomenológica sobre quién eres más allá del puesto."
 heroImage: "/images/hero/quien-eres-cuando-te-quitan-el-cargo.svg"
 permalink: "/ensayos/quien-eres-cuando-te-quitan-el-cargo/"
 layout: layouts/post.njk

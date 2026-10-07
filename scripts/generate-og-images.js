@@ -1,4 +1,4 @@
-// Genera src/images/og/<slug>.png (1200x630) para las vistas previas al compartir
+// Genera src/images/og/<slug>.jpg (1200x630) para las vistas previas al compartir
 // en redes: la ilustración de cabecera del ensayo + su título + el nombre del sitio.
 // Uso: node scripts/generate-og-images.js   (usa Microsoft Edge/Chrome instalado)
 const fs = require("fs");
@@ -45,8 +45,8 @@ function frontMatter(file) {
       <div style="position:absolute;left:64px;right:64px;bottom:96px;color:#fff;font-size:${size}px;line-height:1.18;font-weight:600">${esc(title)}</div>
       <div style="position:absolute;left:64px;bottom:44px;color:#e6ecef;font-size:26px;letter-spacing:.06em;font-family:Arial,sans-serif">A RAS DE SUELO</div>
     </body></html>`);
-    await page.screenshot({ path: path.join(outDir, slug + ".png") });
+    await page.screenshot({ path: path.join(outDir, slug + ".jpg"), type: "jpeg", quality: 82 });
   }
   await browser.close();
-  console.log("PNG generados:", fs.readdirSync(outDir).length);
+  console.log("JPEG generados:", fs.readdirSync(outDir).length);
 })();

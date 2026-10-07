@@ -4,6 +4,8 @@ date: 2026-07-30
 tema: "ansiedad digital"
 escuela: "ética de la virtud"
 excerpt: "Empiezas una tarea que requiere concentración y a los cuatro minutos ya has mirado el móvil sin que sonara nada. No es que hayas decidido"
+seoTitle: "Atención y notificaciones: cómo se entrena el hábito"
+description: "Las notificaciones entrenan tu atención como un hábito. Qué dice la ética de la virtud sobre formar otro carácter."
 heroImage: "/images/hero/tu-atencion-es-un-habito-que-las-notificaciones-estan-entrenando.svg"
 permalink: "/ensayos/tu-atencion-es-un-habito-que-las-notificaciones-estan-entrenando/"
 layout: layouts/post.njk

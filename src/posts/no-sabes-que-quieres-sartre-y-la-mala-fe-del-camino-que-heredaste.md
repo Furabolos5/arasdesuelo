@@ -4,6 +4,8 @@ date: 2026-05-03
 tema: "identidad y propósito"
 escuela: "existencialismo de Sartre"
 excerpt: "Estudiaste lo que tocaba, aceptaste el trabajo que apareció y ahora, con algunos años encima, alguien te pregunta qué quieres hacer y no tienes respuesta. No es que no sepas: es que nunca lo decidiste"
+seoTitle: "No sé qué quiero: Sartre y la mala fe"
+description: "Si no sabes qué quieres, quizá nunca lo decidiste. Qué es la mala fe en Sartre y cómo recuperar margen de elección sin culparte."
 heroImage: "/images/hero/no-sabes-que-quieres-sartre-y-la-mala-fe-del-camino-que-heredaste.svg"
 permalink: "/ensayos/no-sabes-que-quieres-sartre-y-la-mala-fe-del-camino-que-heredaste/"
 layout: layouts/post.njk

@@ -4,6 +4,8 @@ date: 2026-09-20
 tema: "dinero y ambición"
 escuela: "cinismo griego"
 excerpt: "Compras algo que en realidad no necesitabas, y en el momento de pagarlo sientes una descarga de satisfacción que dura, si acaso, hasta que lo"
+seoTitle: "Gastar para demostrar vs. gastar para resolver"
+description: "Gastar para impresionar cansa más que gastar para resolver. Qué dicen los cínicos griegos sobre el dinero y el qué dirán."
 heroImage: "/images/hero/gastar-para-demostrar-algo-cansa-mas-que-gastar-para-resolver-algo.svg"
 permalink: "/ensayos/gastar-para-demostrar-algo-cansa-mas-que-gastar-para-resolver-algo/"
 layout: layouts/post.njk

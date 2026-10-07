@@ -4,6 +4,8 @@ date: 2026-04-29
 tema: "tiempo y mortalidad"
 escuela: "budismo zen"
 excerpt: "Hace diez años eras bueno en lo tuyo. Ahora quieres aprender algo desde cero y te encuentras torpe, lento y con la sensación de que ya es tarde. Lo que te frena no es la edad, es la experiencia"
+seoTitle: "Empezar de nuevo a los cuarenta: mente de principiante"
+description: "Aprender algo desde cero a los 40 da vértigo. La mente de principiante del zen y pasos concretos para empezar sin sentirte tarde."
 heroImage: "/images/hero/empezar-de-nuevo-a-los-cuarenta-la-mente-de-principiante-del-zen.svg"
 permalink: "/ensayos/empezar-de-nuevo-a-los-cuarenta-la-mente-de-principiante-del-zen/"
 layout: layouts/post.njk

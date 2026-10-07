@@ -4,6 +4,8 @@ date: 2026-05-07
 tema: "soledad y vínculos"
 escuela: "epicureísmo"
 excerpt: "Tienes cientos de contactos y, cuando de verdad necesitas hablar, la lista de personas a quienes llamarías cabe en una mano. No es un fallo tuyo: es una cuenta que los epicúreos ya habían hecho"
+seoTitle: "Amistad según Epicuro: pocos amigos, más confianza"
+description: "Por qué Epicuro ponía la amistad en el centro de una vida buena y cómo cultivar unos pocos vínculos reales entre agendas llenas."
 heroImage: "/images/hero/epicuro-y-la-amistad-por-que-tres-amigos-valen-mas-que-cien-contactos.svg"
 permalink: "/ensayos/epicuro-y-la-amistad-por-que-tres-amigos-valen-mas-que-cien-contactos/"
 layout: layouts/post.njk

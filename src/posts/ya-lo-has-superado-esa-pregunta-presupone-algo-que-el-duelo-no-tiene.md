@@ -4,6 +4,8 @@ date: 2026-06-20
 tema: "pérdida y duelo"
 escuela: "pragmatismo de William James"
 excerpt: "Alguien te pregunta, meses después de una pérdida importante, si ya lo has superado. La pregunta incomoda porque no tiene una respuesta limpia."
+seoTitle: "¿Ya lo has superado? El duelo no funciona así"
+description: "La pregunta «¿ya lo has superado?» presupone algo que el duelo no tiene. Una lectura desde el pragmatismo de William James."
 heroImage: "/images/hero/ya-lo-has-superado-esa-pregunta-presupone-algo-que-el-duelo-no-tiene.svg"
 permalink: "/ensayos/ya-lo-has-superado-esa-pregunta-presupone-algo-que-el-duelo-no-tiene/"
 layout: layouts/post.njk
